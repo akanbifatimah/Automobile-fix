@@ -1,0 +1,1314 @@
+<!DOCTYPE html><html lang="en-US"><head><meta charset="UTF-8"/>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=false;__ez.queue=function(){var e=0,i=0,n=[],t=!1,r=[],s=[],o=!0,a=function(e,i,t,r,s,o,a){var l=this;this.name=e,this.funcName=i,this.parameters=null===t?null:t instanceof Array?t:[t],this.isBlock=r,this.blockedBy=s,this.deleteWhenComplete=o,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.isTimeDelay=!1,this.process=function(){f("... func = "+e),l.isInitialized=!0,l.isComplete=!0,f("... func.apply: "+e);var i=l.funcName.split("."),t=null;i.length>3||(t=3===i.length?window[i[0]][i[1]][i[2]]:2===i.length?window[i[0]][i[1]]:window[l.funcName]),null!=t&&t.apply(null,this.parameters),!0===l.deleteWhenComplete&&delete n[e],!0===l.isBlock&&(f("----- F'D: "+l.name),m())}},l=function(e,i,n,t,r,s,o){var a=this;this.name=e,this.path=i,this.async=r,this.defer=s,this.isBlock=n,this.blockedBy=t,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=o,this.isTimeDelay=!1,this.process=function(){a.isInitialized=!0,f("... file = "+e);var n=document.createElement("script");n.src=i,!0===r?n.async=!0:!0===s&&(n.defer=!0),n.onerror=function(){f("----- ERR'D: "+a.name),a.isError=!0,!0===a.isBlock&&m()},n.onreadystatechange=n.onload=function(){var e=n.readyState;f("----- F'D: "+a.name),e&&!/loaded|complete/.test(e)||(a.isComplete=!0,!0===a.isBlock&&m())},document.getElementsByTagName("head")[0].appendChild(n)}},c=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function d(e){!0!==h(e)&&0!=o&&e.process()}function h(e){if(!0===e.isTimeDelay&&!1===t)return f(e.name+" blocked = TIME DELAY!"),!0;if(e.blockedBy instanceof Array)for(var i=0;i<e.blockedBy.length;i++){var r=e.blockedBy[i];if(!1===n.hasOwnProperty(r))return f(e.name+" blocked = "+r),!0;if(!0===e.proceedIfError&&!0===n[r].isError)return!1;if(!1===n[r].isComplete)return f(e.name+" blocked = "+r),!0}return!1}function f(e){var i=window.location.href,n=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(n?n[1]:null)&&console.debug(e)}function m(){++e>200||(f("let's go"),u(r),u(s))}function u(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var n=e[i];!0===n.isComplete||h(n)||!0===n.isInitialized||!0===n.isError?!0===n.isError?f(n.name+": error"):!0===n.isComplete?f(n.name+": complete already"):!0===n.isInitialized&&f(n.name+": initialized already"):n.process()}}return window.addEventListener("load",(function(){setTimeout((function(){t=!0,f("TDELAY -----"),m()}),5e3)}),!1),{addFile:function(e,i,t,o,a,c,h,f){var m=new l(e,i,t,o,a,c,h);!0===f?r[e]=m:s[e]=m,n[e]=m,d(m)},addDelayFile:function(e,i){var t=new l(e,i,!1,[],!1,!1,!0);t.isTimeDelay=!0,f(e+" ...  FILE! TDELAY"),s[e]=t,n[e]=t,d(t)},addFunc:function(e,t,o,l,c,h,f,m,u){!0===h&&(e=e+"_"+i++);var p=new a(e,t,o,l,c,f,m);!0===u?r[e]=p:s[e]=p,n[e]=p,d(p)},addDelayFunc:function(e,i,t){var r=new a(e,i,t,!1,[],!0,!0);r.isTimeDelay=!0,f(e+" ...  FUNCTION! TDELAY"),s[e]=r,n[e]=r,d(r)},items:n,processAll:m,setallowLoad:function(e){o=e},markLoaded:function(e){if(e&&0!==e.length){if(e in n){var i=n[e];!0===i.isComplete?f(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else n[e]=new c(e,!0);f("markLoaded dummyfile: "+n[e].name)}},logWhatsBlocked:function(){for(var e in n)!1!==n.hasOwnProperty(e)&&h(n[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot={};</script>
+<script>window.ezslots_raw=[];var __sellerid='31fbd0d871bca4e0f5245353c462b12f';var __schain_domain='studentlesson.com';var __ez_nid ='1254144';__advertiserRule=[''];var ezasVars = {'cid':'8506434921','pid':'pub-3794702375190742','ssid':44};window.google_reactive_ads_global_state = {
+                adCount: {},
+                floatingAdsStacking: { maxZIndexListeners: [], maxZIndexRestrictions: {}, nextRestrictionId: 0 },
+                messageValidationEnabled: false,
+                reactiveTypeDisabledByPublisher: {},
+                reactiveTypeEnabledInAsfe: {},
+                sideRailAvailableSpace: [],
+                sideRailOverlappableElements: [],
+                stateForType: {},
+                tagSpecificState: {},
+                wasPlaTagProcessed: true,
+                wasReactiveAdConfigReceived: { 1: true, 2: true, 8: true },
+                wasReactiveAdVisible: {},
+                wasReactiveTagRequestSent: true,
+                description: "Can't disable auto ads programmatically on the page, so here we are!"
+            };!function(){window.ezasvEvent=function(e,t){if(!0===e[0].isIntersecting){var i=e[0].target.attributes[0].value.substr(0,e[0].target.attributes[0].value.length-9);window.ezoSTPixelAdd(i,"viewed",1),t.disconnect()}},window.ezaslEvent=function(e,t){if(void 0!==e[0].target.attributes["data-ad-status"]){var i=e[0].target.attributes["data-ad-status"].value,o=e[0].target.attributes[0].value.substr(0,e[0].target.attributes[0].value.length-9);"filled"==i&&(window.ezoSTPixelAdd(o,"loaded",1),new IntersectionObserver(window.ezasvEvent,{threshold:[1]}).observe(document.getElementById(o+"-asloaded"))),"unfilled"==i&&setTimeout((function(){window.ezoAdBackFill(e)}),2e3),t.disconnect()}},window.ezoAdBackFill=function(e){var t=e[0].target,i=t.parentElement;if(t.style.display="none !important",void 0===(o=ezoGetSlotNum(i.id))&&"function"==typeof __ez_fad_initslot[i.id])var o=__ez_fad_initslot[i.id](6);if(void 0!==o)var n=window[o];if(void 0!==n){n.setTargeting("compid","0"),n.setTargeting("bkfl","1"),n.setTargeting("reft","t");var d=n.getTargeting("br2")[0];void 0!==window.ezobfh&&void 0!==window.ezobfh[d]&&(n.setTargeting("br1",d),n.setTargeting("eb_br",window.ezobfh[d])),googletag.display(n),setTimeout((function(){googletag.pubads().refresh([n])}),500)}},window.ezoSTPixels=[];var e=setInterval((function(){"undefined"!=typeof __ez&&"undefined"!=typeof __ezDotData&&"undefined"!=typeof ezslots&&window.ezslots_raw.length>0&&(window.ezoSTPixelFire(),clearInterval(e))}),250);window.ezoSTPixelAdd=function(e,t,i){window.ezoSTPixels.push({id:e,name:t,value:i}),window.ezoSTPixelFire()},window.ezoGetSlotById=function(e){var t=e.split("div-gpt-ad-")[1].split("-",3).join("-");for(s in window.ezslots_raw)if(window.ezslots_raw[s].tap.includes(t))return window.ezslots_raw[s]},window.ezoGetSlotNum=function(e){if(void 0!==window.ezslots&&0!=window.ezslots)for(var t=0;t<window.ezslots.length;t++){var i=window[ezslots[t]];if(void 0!==i){var o=i.getSlotElementId();if(void 0!==o&&o==e)return ezslots[t]}}},window.ezoSTPixelFire=function(){if("undefined"!=typeof __ez&&"undefined"!=typeof __ezDotData&&"undefined"!=typeof ezslots&&window.ezslots_raw.length>0)for(;window.ezoSTPixels.length>0;){var e=window.ezoSTPixels.shift(),t=window.ezoGetSlotById(e.id);if(void 0===t)return void window.ezoSTPixels.push(e);var i=[{type:"impression",impression_id:t.eid,domain_id:window.did.toString(),unit:e.id,t_epoch:__ez.dot.getEpoch(0),ad_position:parseInt(t.ap),country_code:__ez.dot.getCC(),pageview_id:__ez.dot.getPageviewId(),comp_id:1,data:__ez.dot.dataToStr([new __ezDotData(e.name,e.value.toString())]),is_orig:0}],o=__ez.dot.getURL("/porpoiseant/army.gif")+"?orig=0&sts="+btoa(JSON.stringify(i));__ez.dot.Fire(o)}}}();</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossorigin="anonymous"></script>
+<script>window.ezhbopt=true;</script>
+<script>window.ezpbCache=true;</script>
+<link href="//ad.doubleclick.net" rel="dns-prefetch">
+<link href="//pagead2.googlesyndication.com" rel="dns-prefetch">
+<link href="//googleads.g.doubleclick.net" rel="dns-prefetch">
+<link href="//tpc.googlesyndication.com" rel="dns-prefetch">
+<link href="//adservice.google.com" rel="dns-prefetch">
+<link href="//secureads.g.doubleclick.net" rel="dns-prefetch">
+<link href="//www.googletagservices.com" rel="dns-prefetch">
+<link rel='preload' as='script' href='//securepubads.g.doubleclick.net/tag/js/gpt.js'>
+<link rel='preload' as='script' href='//go.ezodn.com/hb/dall.js?b=adyoulike,amx,criteo,oftmedia,onemobile,onetag,pubmatic,pulsepoint,sharethrough,yahoossp,yieldmo&cb=195-0-45' onerror="window.ezDallErr=true">
+<script type="text/javascript">
+	var __banger_pmp_deals=function(){var d={18:{"DealId":18,"Floor":25},1428:{"DealId":1428,"Floor":25},2693:{"DealId":2693,"Floor":50},3052:{"DealId":3052,"Floor":20},3053:{"DealId":3053,"Floor":37}};return[{"SlotName":"/1254144,22759137932/studentlesson_com-medrectangle-1","Deals":[d[18],d[1428],d[2693],d[3052],d[3053]]},{"SlotName":"/1254144,22759137932/studentlesson_com-medrectangle-3","Deals":[d[18],d[1428],d[2693],d[3052],d[3053]]},{"SlotName":"/1254144,22759137932/studentlesson_com-large-leaderboard-1","Deals":[d[18],d[1428],d[3052],d[3053]]},{"SlotName":"/1254144,22759137932/studentlesson_com-box-4","Deals":[d[18],d[1428],d[3052],d[3053]]},{"SlotName":"/1254144,22759137932/studentlesson_com-leader-1","Deals":[d[18],d[1428],d[2693],d[3052],d[3053]]},{"SlotName":"/1254144,22759137932/studentlesson_com-banner-1","Deals":[d[18],d[1428],d[2693],d[3052],d[3053]]},{"SlotName":"/1254144,22759137932/studentlesson_com-box-1","Deals":[d[18],d[1428],d[2693],d[3052],d[3053]]},{"SlotName":"/1254144,22759137932/studentlesson_com-medrectangle-2","Deals":[d[18],d[1428],d[3052]]},{"SlotName":"/1254144,22759137932/studentlesson_com-large-mobile-banner-1","Deals":[d[18],d[1428],d[2693],d[3052],d[3053]]},{"SlotName":"/1254144,22759137932/studentlesson_com-large-leaderboard-1","Deals":[d[18],d[1428],d[3052],d[3053]]},{"SlotName":"/1254144,22759137932/studentlesson_com-large-leaderboard-1","Deals":[d[18],d[1428],d[3052],d[3053]]},{"SlotName":"/1254144,22759137932/studentlesson_com-large-leaderboard-1","Deals":[d[18],d[1428],d[3052],d[3053]]}]}();
+</script>
+<script type='text/javascript'>_ebcids=[138231308856,138231308940,138231308949,138231387842,138231421744,138231421759,138231421774,138231421783,138231421789,138231421792,138242067587,138242067590,138242067602,138242067605,138242067608,138242067614,138242229406,138242229415,138242229421,138242229430];</script>
+<script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>ezobv=149;</script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>function ez_isclean(data){if(typeof data==='undefined'){data=document.URL;}
+var re=/(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))(@|%2540|%40)((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;var isClean=!re.test(data);return isClean;}
+var ezSlotKVStore={};function ezSetSlotTargeting(divid,key,value){var slot=ezGetSlotById(divid);if(slot){slot.setTargeting(key,value);}else{if(typeof ezSlotKVStore[divid]=='undefined'){ezSlotKVStore[divid]={};}
+ezSlotKVStore[divid][key]=value;}}
+function ezGetSlotById(id){if(typeof window.ezslots==='undefined'||window.ezslots==0){return;}
+for(var i=0;i<window.ezslots.length;i++){var slot=window[ezslots[i]];if(typeof slot==='undefined'){continue;}
+var slotId=slot.getSlotElementId();if(typeof slotId!=='undefined'&&slotId==id){return slot;}}}
+function ezSetTargetingFromMap(slot,obj){if(typeof slot==='undefined'){return;}
+for(var key in obj){if(!obj.hasOwnProperty(key)){continue;}
+slot.setTargeting(key,obj[key]);}}
+var ez_queue=new Array();function sort_queue(a,b)
+{if(a.priority<b.priority)return-1;else if(a.priority==b.priority)return 0;else return 1;}
+function execute_ez_queue()
+{ez_queue.sort(sort_queue);for(var i in ez_queue)
+{if(typeof ez_queue[i].method!="undefined")
+{try{ez_queue[i].method.call(null);}
+catch(err){}}}}
+window.ez_ad_units=new Array();window.ezslots=new Array();window.ezsrqt={};function ez_write_tag(d){if(ez_isclean()&&d instanceof Array){if(typeof ezstandalone!=='undefined'&&typeof ezstandalone.selectedPlaceholders!=='undefined'&&ezstandalone.selectedPlaceholders[d[3]]===true){return "1+1";}
+if(typeof ezstandaloneForAll!=='undefined'&&typeof ezstandaloneForAll.selectedPlaceholders!=='undefined'&&ezstandaloneForAll.selectedPlaceholders[d[3]]===true){return "1+1";}
+ez_ad_units[ez_ad_units.length]=d;var dve="";if(typeof d[5]!='undefined'&&d[5]>0){dve='_'+d[5];}
+var ezcmd="googletag.cmd.push(function() {var divid = 'div-gpt-ad-"+d[1]+"-"+d[4]+""+dve+"';if(typeof ezlrarn == 'function'){ezlrarn(divid);}googletag.display(divid);var to = 0;if("+d[2]+".getTargeting('ga')[0] == '0'){to = 500;}if((window.ezDisableInitialLoad==true || googletag.pubads().isInitialLoadDisabled()) && window.ezoll != true){setTimeout(function(){if(typeof window.adjustHbValues == 'function'){window.adjustHbValues("+d[2]+");}if(typeof window.ezasBuild == 'function' && window.ezasBuild("+d[2]+")){return;}googletag.pubads().refresh(["+d[2]+"])},to);}});";return ezcmd;}
+return "1+1";}
+function in_array(needle,haystack){var length=haystack.length;for(var i=0;i<length;i++){if(haystack[i]==needle)return true;}
+return false;}
+var ezrpos=new Array();var ez_current_interval;var ez_current_load=0;function __ez_fad_load(n,r,force){if(!force&&(!__ez_fad_csnt()||!__ez_fad_rdy()||ezslit_run[n]===true||typeof __ez_fad_divs[n]==='undefined'||__ez_fad_divs[n].length===0)){return;}
+ezslit_run[n]=true;__ez_fad_gpt();if(n>0&&n!==5){__ez_fad_pb();}
+googletag.cmd.push(function(){var s=[];for(var i=0;i<__ez_fad_divs[n].length;i++){if(__ez_fad_divsd.indexOf(__ez_fad_divs[n][i])==-1){__ez_fad_divsd.push(__ez_fad_divs[n][i]);s.push(__ez_fad_initslot[__ez_fad_divs[n][i]](r));googletag.display(__ez_fad_divs[n][i]);}}
+var ws=[];for(i3=0;i3<s.length;i3++){var slot=window[s[i3]];if(typeof window.ezasBuild==='function'){if(window.ezasBuild(slot)){continue;}}
+if(typeof window.adjustHbValues==='function'){window.adjustHbValues(slot);}
+ws.push(slot);}
+if(ws.length>0){googletag.pubads().refresh(ws);}
+setTimeout(__ez_fad_floatshow,0);});if(n===0){if(document.readyState==="complete"){googletag.cmd.push(function(){__ez_fad_load(5,null);});setTimeout(function(){__ez_fad_load(1,null);__ez_fad_load(5,null);},5500);return;}
+document.addEventListener('DOMContentLoaded',function(evt){googletag.cmd.push(function(){__ez_fad_load(5,null);});setTimeout(function(){__ez_fad_load(1,null);__ez_fad_load(5,null);},5500);},false);}}
+var __ez_fad_floatshowd=false;function __ez_fad_floatshow(d){if(__ez_fad_floatshowd===true||typeof __ez_fad_floating==='undefined'){return;}
+__ez_fad_floatshowd=true;var e=document.getElementById('ezmobfooter');if(e!=null){e.classList.add('ezmobtrans');}else{head=document.head||document.getElementsByTagName('head')[0],style=document.createElement('style');head.appendChild(style);var css="body > #ezmobfooter{bottom:0px;visibility:visible;}";style.type='text/css';if(style.styleSheet){style.styleSheet.cssText=css;}else{style.appendChild(document.createTextNode(css));}}
+googletag.cmd.push(function(){for(var i=0;i<__ez_fad_floating.length;i++){var s=__ez_fad_initslot[__ez_fad_floating[i]](null);googletag.display(__ez_fad_floating[i]);if(typeof window.adjustHbValues==='function'){window.adjustHbValues(window[s]);}
+googletag.pubads().refresh([window[s]]);}});}
+var __ez_fad_initslot={};var __ez_fad_fastd=[];var __ez_fad_fastdiv=[];var __ez_fad_fastslots=[];var __ez_fad_viewslots=[];var __ez_fad_instaslots=[];var ezslit_run=[];var __ez_fad_divs=[[],[],[],[],[],[],[]];__ez_fad_divpos={};var __ez_fad_divsd=[];var __ez_fad_vw=window.screen.width;var __ez_fad_vh=window.screen.height;var __ez_fad_count=0;function __ez_fad_invisible(e){!!(e.offsetWidth||e.offsetHeight||e.getClientRects().length)}
+function __ez_fad_position(id){var did=document.getElementById(id);if(did===null){return;}
+var rect=did.getBoundingClientRect();var vs=window.scrollY||document.body.scrollTop||document.documentElement.scrollTop;var vh=vs+__ez_fad_vh;_ez_fad_vw=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;__ez_fad_vh=window.innerHeight||Math.max(document.documentElement.clientHeight,document.body.clientHeight);var height_adjust=800;if(__ez_fad_vw<1200){height_adjust=__ez_fad_vh*1.25;vh+=0;}
+if(__ez_fad_floating.indexOf(id)!==-1){__ez_fad_load(6,null,true);return;}
+__ez_fad_divpos[id]=rect.top;if(__ez_fad_invisible(did)&&isFloat!=true){__ez_fad_add(4,id);}else if(rect.top<vh&&(ezslit_run[0]!=true||ezslit_run[5]!=true)){if(ezslit_run[0]!=true){__ez_fad_gpt();__ez_fad_add(0,id);}else{__ez_fad_add(5,id);}}else if(rect.top<(vh+height_adjust)&&ezslit_run[1]!=true){if(ezslit_run[0]!=true){__ez_fad_load(0,0);};__ez_fad_add(1,id);}else if(rect.top<(vh+height_adjust+(__ez_fad_vh))&&ezslit_run[2]!=true){if(ezslit_run[0]!=true){__ez_fad_load(0,0);}
+__ez_fad_add(2,id);}else{if(ezslit_run[0]!=true){__ez_fad_load(0,0);}
+__ez_fad_add(3,id);}
+__ez_fad_count++;}
+function __ez_fad_add(d,id){__ez_fad_divs[d].push(id);if(ezslit_run[d]===true){ezslit_run[d]=false;}
+if(typeof __ez_fad_scrollmond!=='undefined'&&__ez_fad_scrollmond===true){__ez_fad_scrollmond=false;setTimeout(__ez_fad_scrollmon,500);}}
+function __ez_fad_fast(s,f,m){if(__ez_fad_fastd.indexOf(s)==-1){__ez_fad_fastd.push(s);var ebbr2='empty';var br2=0;if(typeof ezoibfh[f]!='undefined'){ebbr2=ezoibfh[f];br2=f;}
+if(typeof window['ezslot_'+s]!='undefined'){var br1=parseInt(window['ezslot_'+s].getTargeting('br1')[0]);if(isNaN(br1)||br2<br1){window['ezslot_'+s].setTargeting('br1',br2).setTargeting('eb_br',ebbr2);if(m!=null){window['ezslot_'+s].setTargeting('bvr',m);}}else{}}else{}}}
+function __ez_fad_csnt(){return document.cookie.indexOf('ezCMPCookieConsent')!==-1||typeof __ez_conestreq=='undefined';}
+var __ez_fad_haspo=false;if(typeof PerformanceObserver!='undefined'&&typeof PerformanceObserver.supportedEntryTypes!='undefined'){if(PerformanceObserver.supportedEntryTypes.indexOf('largest-contentful-paint')>-1){__ez_fad_haspo=true;}}
+function __ez_fad_rdy(){if(document.body!==null&&(__ez_fad_haspo==false&&__ez_fad_doc_ht>__ez_fad_vp_ht||__ez_fad_hascp)||document.readyState==="complete"){return true;}else{__ez_fad_doc_ht=__ez_fad_docht();__ez_fad_vp_ht=__ez_fad_vpht();}
+return false;}
+function __ez_fad_docht(){if(typeof document.body!='undefined'&&document.body!=null){return Math.max(document.body.scrollHeight,document.body.offsetHeight);}else if(typeof document.documentElement!='undefined'){return Math.max(document.documentElement.clientHeight,document.documentElement.scrollHeight,document.documentElement.offsetHeight);}else{return 0;}}
+function __ez_fad_vpht(){if(typeof window.innerHeight!='undefined'){return window.innerHeight;}else if(typeof document.body!='undefined'&&document.body!=null){return document.body.clientHeight;}else if(typeof document.documentElement!='undefined'){return document.documentElement.clientHeight;}
+else{return 0;}}
+function __ez_close_anchor(){googletag.cmd.push(function(slot){for(var i=0;i<window.ezslots.length;i++){var slot=window[ezslots[i]];if(typeof slot==='undefined'){continue;}
+var alS=slot.getTargeting('al')[0]%1000;if(alS==5){googletag.destroySlots([slot]);}}
+if(typeof(__ez_set_outstream_floor)!=='undefined'){__ez_set_outstream_floor(0);}
+var anchor=document.getElementById('ezmobfooter');if(!anchor){return;}
+anchor.innerHTML='';var styleElement=document.getElementById('ezoicCSS');if(!styleElement){return;}
+var cert=document.getElementById('ezoic-certification-fixed');if(cert){cert.style.bottom='15px';}
+var styles=styleElement.sheet?styleElement.sheet:styleElement.styleSheet;for(var i=0;i<styles.cssRules.length;i++){var rules=styles.cssRules[i];if(rules.selectorText==='body'&&rules.style.height==='auto'&&(rules.style.paddingTop!==''||rules.style.paddingBottom!=='')){styles.deleteRule(i);}}});}
+var __ez_fad_doc_ht=__ez_fad_docht();var __ez_fad_vp_ht=__ez_fad_vpht();var __ez_fad_hascp=false;try{const __ez__fad_po=new PerformanceObserver((entryList)=>{__ez_fad_hascp=true;});__ez__fad_po.observe({type:'largest-contentful-paint',buffered:true});}catch(e){}</script><script type='text/javascript' data-ezscrex="false">var ezorbf = []; </script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>window.isEZABL=false;window.ezmadspc=300;window.ezoViewCheck=false;</script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>window.ezDisableInitialLoad=false;</script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>window.googletag=window.googletag||{};googletag.cmd=googletag.cmd||[];</script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript'>window.ezogetbrkey = function(s){ var k = 'br1';var k2 = 'eb_br';if(window.ezogtk == ""){k='br1u';k2='eb_bru';}else if(window.ezogtk != "NT"){k='br1t';k2='eb_brt';} s.setTargeting('br1', s.getTargeting(k));s.setTargeting('eb_br', s.getTargeting(k2));};googletag.cmd.push(function() {googletag.pubads().enableSingleRequest();googletag.pubads().addEventListener('slotRenderEnded', function(event) { __ez.queue.addFunc("ezbanger", "ezbanger", event, false, ['banger.js'], true, true, false, true); });googletag.pubads().addEventListener('impressionViewable', function(event) { __ez.queue.addFunc("ezvb", "ezvb", event, false, ['banger.js'], true, true, false, true); });googletag.pubads().addEventListener('slotResponseReceived', function(event) { __ez.queue.addFunc("ezsr", "ezsr", event, false, ['banger.js'], true, true, false, true); });googletag.pubads().addEventListener('slotRequested', function(e) { window.ezsrqt[e.slot.getSlotElementId()] = Date.now();});googletag.pubads().disableInitialLoad();googletag.pubads().enableLazyLoad({fetchMarginPercent: 600, renderMarginPercent: 60, mobileScaling: 2.0});googletag.enableServices();});window.ezoll = false;window.ezoadxnc = '1254144';window.ezoadhb = '60';var ezaxmns={};var ezaucmns={};
+
+		var __ez_fad_floating = ['div-gpt-ad-studentlesson_com-medrectangle-2-0'];
+		var __ez_fad_gptd = __ez_fad_gptd || false;var __ez_fad_ezpbinitd = false;var __ez_fad_pbt = setTimeout(function(){__ez_fad_pb();},5000);function __ez_fad_gpt(){if(__ez_fad_gptd == false){__ez_fad_gptd=true;!function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//securepubads.g.doubleclick.net/tag/js/gpt.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(t,c)}();}}function __ez_fad_pb(){if(__ez_fad_ezpbinitd==false && typeof __ez_fad_ezpbinit == 'function'){__ez_fad_ezpbinitd = true;__ez_fad_ezpbinit()}};
+		
+	function __ez_init_slot(bvr, did, slotNum, defineFunc) {
+		googletag.cmd.push(function() {
+			defineFunc();
+			ezrpos[slotNum]=slotNum;
+			ezslots.push("ezslot_" + slotNum);
+			if(bvr != null){
+				if(typeof __ez_fad_fastslots[did] == 'function') {
+					__ez_fad_fastslots[did]();
+				}
+			}
+			if(typeof ezSlotKVStore != 'undefined' && typeof ezSlotKVStore[did] != 'undefined') {
+				for (var name in ezSlotKVStore[did]) {
+					if (!ezSlotKVStore.hasOwnProperty(name)) {
+						ezSetSlotTargeting(did, name, ezSlotKVStore[did][name]);
+					}
+				}
+				ezSlotKVStore[did] = {};
+			}
+		});return "ezslot_" + slotNum;
+	}
+__ez_fad_initslot['div-gpt-ad-studentlesson_com-medrectangle-3-0'] = function(bvr){
+				var defScript = function() {ezslot_6 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-medrectangle-3',[336,280],'div-gpt-ad-studentlesson_com-medrectangle-3-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_6_raw = {'a':'1','iid1':'7485357556739434','eid':'7485357556739434','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1105','sap':'1105','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'6','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'21','al':'1021','compid':'1','tap':'studentlesson_com-medrectangle-3-7485357556739434','eb_br':'60474211daf1dfd4d90000ea01f56c30','eba':'1','ebss':'10061','asau':'8188253616','bv':'0','bvm':'2','bvr':'1','shp':'1','ftsn':'12','ftsng':'12','br1':'0','br2':'24','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,28,29,760,761,815,816,817,893,899,903,919,1794,2310,2339,2351,2526,2527,2610,2688,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_6_raw);ezSetTargetingFromMap(ezslot_6,ezslot_6_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-medrectangle-3-0',6, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-banner-1-0'] = function(bvr){
+				var defScript = function() {ezslot_7 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-banner-1',[300,250],'div-gpt-ad-studentlesson_com-banner-1-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_7_raw = {'a':'1','iid1':'7232784604701705','eid':'7232784604701705','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1114','sap':'1114','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'7','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'30','al':'1030','compid':'1','tap':'studentlesson_com-banner-1-7232784604701705','eb_br':'60474211daf1dfd4d90000ea01f56c30','eba':'1','ebss':'10061','asau':'8188253616','bv':'25','bvm':'1','bvr':'5','shp':'1','ftsn':'12','ftsng':'12','br1':'0','br2':'30','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,28,760,815,817,899,903,919,1794,2310,2339,2351,2526,2527,2610,2688,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_7_raw);ezSetTargetingFromMap(ezslot_7,ezslot_7_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-banner-1-0',7, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-medrectangle-2-0'] = function(bvr){
+				var defScript = function() {ezslot_0 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-medrectangle-2',[728,90],'div-gpt-ad-studentlesson_com-medrectangle-2-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_0_raw = {'a':'1','iid1':'4555129304668278','eid':'4555129304668278','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1100','sap':'1100','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'0','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'5','al':'1005','compid':'0','tap':'studentlesson_com-medrectangle-2-4555129304668278','eb_br':'8c5ffefb122f59a66a8b7672d4452af2','eba':'1','ebss':'10061','asau':'8188253616','bv':'0','bvm':'1','bvr':'2','shp':'1','ftsn':'12','ftsng':'12','br1':'36','br2':'18','ezoic':'1','nmau':'0','mau':'0','stl':[157,193,0,4,0,193,196,20,71,30,192,31,902,903,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,28,29,30,760,761,813,814,815,816,817,818,819,899,917,918,919,1794,2310,2339,2351,2526,2527,2610,2688,2693,2761,2763,2764,2765,3044,3045,3053,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_0_raw);ezSetTargetingFromMap(ezslot_0,ezslot_0_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-medrectangle-2-0',0, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-leader-1-0'] = function(bvr){
+				var defScript = function() {ezslot_9 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-leader-1',[[250,250],[728,90],[320,50],[468,60],[234,60],['fluid']],'div-gpt-ad-studentlesson_com-leader-1-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_9_raw = {'a':'1','iid1':'4036817956698109','eid':'4036817956698109','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1106','sap':'1106','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'9','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'37','al':'1037','compid':'1','tap':'studentlesson_com-leader-1-4036817956698109','eb_br':'60474211daf1dfd4d90000ea01f56c30','eba':'1','ebss':'10061','asau':'8188253616','bv':'30','bvm':'3','bvr':'4','shp':'1','ftsn':'12','ftsng':'12','br1':'0','br2':'24','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,28,760,815,817,899,903,919,1794,2310,2339,2351,2526,2527,2610,2688,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_9_raw);ezSetTargetingFromMap(ezslot_9,ezslot_9_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-leader-1-0',9, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-large-mobile-banner-1-0'] = function(bvr){
+				var defScript = function() {ezslot_10 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-large-mobile-banner-1',[300,250],'div-gpt-ad-studentlesson_com-large-mobile-banner-1-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_10_raw = {'a':'1','iid1':'6571118778682091','eid':'6571118778682091','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1116','sap':'1116','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'10','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'700','al':'1700','compid':'1','tap':'studentlesson_com-large-mobile-banner-1-6571118778682091','eb_br':'60474211daf1dfd4d90000ea01f56c30','eba':'1','ebss':'10061','asau':'8188253616','bv':'24','bvm':'0','bvr':'2','shp':'1','ftsn':'12','ftsng':'12','br1':'0','br2':'30','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,28,760,815,817,899,903,919,1794,2310,2339,2351,2526,2527,2610,2688,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_10_raw);ezSetTargetingFromMap(ezslot_10,ezslot_10_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-large-mobile-banner-1-0',10, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-box-1-0'] = function(bvr){
+				var defScript = function() {ezslot_5 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-box-1',[300,250],'div-gpt-ad-studentlesson_com-box-1-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_5_raw = {'a':'1','iid1':'4440072800677092','eid':'4440072800677092','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1103','sap':'1103','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'5','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'0','al':'1000','compid':'0','tap':'studentlesson_com-box-1-4440072800677092','eb_br':'c352ba581bd3ffd8cea608cf2d55f519','eba':'1','ebss':'10061','asau':'8188253616','bv':'0','bvm':'1','bvr':'1','shp':'2','ftsn':'12','ftsng':'12','acptad':'1','br1':'60','br2':'30','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,28,29,760,761,815,816,817,899,919,1794,2310,2339,2351,2526,2527,2610,2688,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_5_raw);ezSetTargetingFromMap(ezslot_5,ezslot_5_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-box-1-0',5, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-box-4-0'] = function(bvr){
+				var defScript = function() {ezslot_8 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-box-4',[300,250],'div-gpt-ad-studentlesson_com-box-4-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_8_raw = {'a':'1','iid1':'1002763374675316','eid':'1002763374675316','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1113','sap':'1113','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'8','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'3','al':'1003','compid':'0','tap':'studentlesson_com-box-4-1002763374675316','eb_br':'8fc09e60bfd78aa82afac0405213359a','eba':'1','ebss':'10061','asau':'8188253616','bv':'0','bvm':'3','bvr':'2','shp':'1','ftsn':'12','ftsng':'12','br1':'48','br2':'24','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,815,817,899,919,1794,2310,2339,2351,2526,2527,2610,2688,2693,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_8_raw);ezSetTargetingFromMap(ezslot_8,ezslot_8_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-box-4-0',8, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-large-leaderboard-1-0'] = function(bvr){
+				var defScript = function() {ezslot_1 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-large-leaderboard-1',[[300,250], ['fluid']],'div-gpt-ad-studentlesson_com-large-leaderboard-1-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_1_raw = {'a':'1','iid1':'418753754704985','eid':'418753754704985','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1104','sap':'1104','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'1','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'35','al':'1035','compid':'0','tap':'studentlesson_com-large-leaderboard-1-418753754704985','eb_br':'8fc09e60bfd78aa82afac0405213359a','eba':'1','ebss':'10061','asau':'8188253616','bv':'24','bvm':'0','bvr':'2','shp':'3','ftsn':'12','ftsng':'12','br1':'48','br2':'24','ezoic':'1','nmau':'4','mau':'0','stl':[77,168,0,67,0,168,168,168,157,201,187,0,901,182,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,28,29,30,760,761,813,815,816,817,818,819,893,899,903,917,918,919,1794,2310,2339,2351,2526,2527,2610,2688,2693,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_1_raw);ezSetTargetingFromMap(ezslot_1,ezslot_1_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-large-leaderboard-1-0',1, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-large-leaderboard-1-0_1'] = function(bvr){
+				var defScript = function() {ezslot_2 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-large-leaderboard-1',[[300,250], ['fluid']],'div-gpt-ad-studentlesson_com-large-leaderboard-1-0_1').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_2_raw = {'a':'1','iid1':'418753754704985','eid':'418753754704985','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1104','sap':'1104','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'2','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'35','al':'1035','compid':'0','tap':'studentlesson_com-large-leaderboard-1-418753754704985','eb_br':'8fc09e60bfd78aa82afac0405213359a','eba':'1','ebss':'10061','asau':'8188253616','bv':'24','bvm':'0','bvr':'2','shp':'3','ftsn':'12','ftsng':'12','br1':'48','br2':'24','ezoic':'1','nmau':'4','mau':'1','stl':[77,168,0,67,0,168,168,168,157,201,187,0,901,182,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,28,29,30,760,761,813,815,816,817,818,819,893,899,903,917,918,919,1794,2310,2339,2351,2526,2527,2610,2688,2693,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_2_raw);ezSetTargetingFromMap(ezslot_2,ezslot_2_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-large-leaderboard-1-0_1',2, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-large-leaderboard-1-0_2'] = function(bvr){
+				var defScript = function() {ezslot_3 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-large-leaderboard-1',[[300,250], ['fluid']],'div-gpt-ad-studentlesson_com-large-leaderboard-1-0_2').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_3_raw = {'a':'1','iid1':'418753754704985','eid':'418753754704985','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1104','sap':'1104','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'3','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'35','al':'1035','compid':'0','tap':'studentlesson_com-large-leaderboard-1-418753754704985','eb_br':'8fc09e60bfd78aa82afac0405213359a','eba':'1','ebss':'10061','asau':'8188253616','bv':'24','bvm':'0','bvr':'2','shp':'3','ftsn':'12','ftsng':'12','br1':'48','br2':'24','ezoic':'1','nmau':'4','mau':'2','stl':[157,193,0,4,0,193,196,20,71,30,192,31,902,903,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,28,29,30,760,761,813,815,816,817,818,819,893,899,903,917,918,919,1794,2310,2339,2351,2526,2527,2610,2688,2693,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_3_raw);ezSetTargetingFromMap(ezslot_3,ezslot_3_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-large-leaderboard-1-0_2',3, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-large-leaderboard-1-0_3'] = function(bvr){
+				var defScript = function() {ezslot_4 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-large-leaderboard-1',[[300,250], ['fluid']],'div-gpt-ad-studentlesson_com-large-leaderboard-1-0_3').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_4_raw = {'a':'1','iid1':'418753754704985','eid':'418753754704985','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1104','sap':'1104','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'4','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'35','al':'1035','compid':'0','tap':'studentlesson_com-large-leaderboard-1-418753754704985','eb_br':'8fc09e60bfd78aa82afac0405213359a','eba':'1','ebss':'10061','asau':'8188253616','bv':'24','bvm':'0','bvr':'2','shp':'3','ftsn':'12','ftsng':'12','br1':'48','br2':'24','ezoic':'1','nmau':'4','mau':'3','stl':[157,193,0,4,0,193,196,20,71,30,192,31,902,903,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,27,28,29,30,760,761,813,815,816,817,818,819,893,899,903,917,918,919,1794,2310,2339,2351,2526,2527,2610,2688,2693,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_4_raw);ezSetTargetingFromMap(ezslot_4,ezslot_4_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-large-leaderboard-1-0_3',4, defScript);
+			};__ez_fad_initslot['div-gpt-ad-studentlesson_com-medrectangle-1-0'] = function(bvr){
+				var defScript = function() {ezslot_11 = googletag.defineSlot('/1254144,22759137932/studentlesson_com-medrectangle-1',[[250,250],[120,240],[200,200],[970,90],[125,125],[234,60],[320,50],[320,100],[468,60],[970,250],[180,150],[728,90],[300,250],['fluid']],'div-gpt-ad-studentlesson_com-medrectangle-1-0').addService(googletag.pubads()).setCollapseEmptyDiv(false);var ezslot_11_raw = {'a':'1','iid1':'3574651180668953','eid':'3574651180668953','t':'134','d':'354107','t1':'134','pvc':'0','ap':'1117','sap':'1117','a':'|0|','as':'revenue','plat':'1','bra':'mod1-c','ic':'1','at':'mbf','adr':'399','ezosn':'11','reft':'tf','refs':'30','ga':'2497208','gala':'','rid':'99998','pt':'4','al':'1004','compid':'1','tap':'studentlesson_com-medrectangle-1-3574651180668953','eb_br':'60474211daf1dfd4d90000ea01f56c30','eba':'1','ebss':'10061','asau':'8188253616','bv':'0','bvm':'1','bvr':'1','shp':'1','ftsn':'12','ftsng':'12','acptad':'1','br1':'0','br2':'30','ezoic':'1','nmau':'0','mau':'0','stl':[63,14,28,4,51,0,88,0,71,30,0,31,901,902,903],'deal1':[17,19,20,21,22,23,24,25,26,919,1794,2310,2339,2351,2526,2527,2610,2688,2761,2763,2764,2765,3044,3045,3054,3154,3430,3455,3456,3457,3458,3460,3682,3683,3684,3676]}; window.ezslots_raw.push( ezslot_11_raw);ezSetTargetingFromMap(ezslot_11,ezslot_11_raw);};
+				return __ez_init_slot(bvr,'div-gpt-ad-studentlesson_com-medrectangle-1-0',11, defScript);
+			};</script>
+<script type="text/javascript">(function(){function storageAvailable(type){var storage;try{storage=window[type];var x='__storage_test__';storage.setItem(x,x);storage.removeItem(x);return true;}
+catch(e){return e instanceof DOMException&&(e.code===22||e.code===1014||e.name==='QuotaExceededError'||e.name==='NS_ERROR_DOM_QUOTA_REACHED')&&(storage&&storage.length!==0);}}
+function remove_ama_config(){if(storageAvailable('localStorage')){localStorage.removeItem("google_ama_config");}}
+remove_ama_config()})()</script>
+<script type="text/javascript">var ezoicTestActive = true</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":1,"ad_count_adjustment":1,"ad_lazyload_version":14,"ad_load_version":1,"ad_location_ids":"5,35,35,35,35,0,21,30,3,37,700,4,95","ad_transform_level":0,"adx_ad_count":7,"bidder_method":1,"bidder_version":1,"city":"Lagos","country":"NG","days_since_last_visit":-1,"display_ad_count":8,"domain_id":354107,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":2,"ezcache_skip_code":0,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":9,"metro_code":0,"optimization_version":1,"page_ad_positions":"1100,1103,1104,1104,1104,1104,1105,1106,1113,1114,1116,1117,1126","page_view_count":0,"page_view_id":"02c93e7f-4a81-4550-4b9e-c43dec420f5a","position_selection_id":46,"postal_code":"","pv_event_count":0,"response_size_orig":79634,"response_time_orig":7,"serverid":"18.185.249.177:28431","state":"LA","sub_page_ad_positions":"1100,1103,1104,1104,1104,1104,1105,1106,1113,1114,1116,1117,1126","t_epoch":1661951759,"template_id":134,"time_on_site_visit":0,"url":"https://studentlesson.com/clutch-definition-working-functions-types-parts/","user_id":0,"weather_precipitation":0,"weather_summary":"","weather_temperature":0,"word_count":1069,"worst_bad_word_level":0};var _ezim_d = {"studentlesson_com-banner-1":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-banner-1/2022-08-31/7232784604701705","height":"250","position_id":1114,"sub_position_id":1114,"width":"300"},"studentlesson_com-box-1":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-box-1/2022-08-31/4440072800677092","height":"250","position_id":1103,"sub_position_id":1103,"width":"300"},"studentlesson_com-box-4":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-box-4/2022-08-31/1002763374675316","height":"250","position_id":1113,"sub_position_id":1113,"width":"300"},"studentlesson_com-large-leaderboard-1":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-large-leaderboard-1/2022-08-31/418753754704985","height":"250v4","position_id":1104,"sub_position_id":1104,"width":"300"},"studentlesson_com-large-leaderboard-1_1":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-large-leaderboard-1/2022-08-31/418753754704985","height":"250v4","position_id":1104,"sub_position_id":1104,"width":"300"},"studentlesson_com-large-leaderboard-1_2":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-large-leaderboard-1/2022-08-31/418753754704985","height":"250v4","position_id":1104,"sub_position_id":1104,"width":"300"},"studentlesson_com-large-leaderboard-1_3":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-large-leaderboard-1/2022-08-31/418753754704985","height":"250v4","position_id":1104,"sub_position_id":1104,"width":"300"},"studentlesson_com-large-mobile-banner-1":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-large-mobile-banner-1/2022-08-31/6571118778682091","height":"250","position_id":1116,"sub_position_id":1116,"width":"300"},"studentlesson_com-leader-1":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-leader-1/2022-08-31/4036817956698109","height":"250","position_id":1106,"sub_position_id":1106,"width":"250"},"studentlesson_com-medrectangle-1":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-medrectangle-1/2022-08-31/3574651180668953","height":"250","position_id":1117,"sub_position_id":1117,"width":"250"},"studentlesson_com-medrectangle-2":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-medrectangle-2/2022-08-31/4555129304668278","height":"90","position_id":1100,"sub_position_id":1100,"width":"728"},"studentlesson_com-medrectangle-3":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-medrectangle-3/2022-08-31/7485357556739434","height":"280","position_id":1105,"sub_position_id":1105,"width":"336"},"studentlesson_com-nativedouble-1":{"adsense_stat_source_id":5,"adx_ad_count":7,"adx_stat_source_id":35,"full_id":"studentlesson_com-nativedouble-1/2022-08-31/250797694720652","height":"480","position_id":1126,"sub_position_id":1126,"width":"100"}};var _ezat = {"domain_id":354107,"form_factor_id":1,"framework_id":1,"pageview_date":"2022-08-31","pageview_id":"02c93e7f-4a81-4550-4b9e-c43dec420f5a","template_id":134,"url":"https://studentlesson.com/clutch-definition-working-functions-types-parts/","visit_uuid":"a22432c4-6858-4e41-771c-e43962e37cf6"};</script><script data-ezscrex="false" data-pagespeed-no-defer data-cfasync="false" type="text/javascript">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=195-0&bv=149&v=62&PageSpeed=off', true, [], true, false, false, true);</script>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>!function(){var e;__ez.vep=(e=[],{Add:function(i,t){__ez.dot.isDefined(i)&&__ez.dot.isValid(t)&&e.push({type:"video",video_impression_id:i,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(t)})},Fire:function(){if(void 0===document.visibilityState||"prerender"!==document.visibilityState){if(__ez.dot.isDefined(e)&&e.length>0)for(;e.length>0;){var i=5;i>e.length&&(i=e.length);var t=e.splice(0,i),o=__ez.dot.getURL("/detroitchicago/grapefruit.gif")+"?orig="+(!0===__ez.template.isOrig?1:0)+"&v="+btoa(JSON.stringify(t));__ez.dot.Fire(o)}e=[]}}})}();</script><script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer></script>
+
+	
+	<meta http-equiv="x-ua-compatible" content="ie=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	
+	<title>Clutch: definition, working, functions, types, parts,problems - Studentlesson</title>
+<meta name="robots" content="max-image-preview:large"/>
+
+
+<meta name="description" content="Today we’ll be looking at the definition, working principle, parts, types, functions, as well as problems of clutch system in an automobile engines."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://studentlesson.com/clutch-definition-working-functions-types-parts/"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Clutch: definition, working, functions, types, parts,problems - Studentlesson"/>
+<meta property="og:description" content="Today we’ll be looking at the definition, working principle, parts, types, functions, as well as problems of clutch system in an automobile engines."/>
+<meta property="og:url" content="https://studentlesson.com/clutch-definition-working-functions-types-parts/"/>
+<meta property="og:site_name" content="Student Lesson"/>
+<meta property="article:publisher" content="https://mobile.facebook.com/Student-Lesson-109205867079021"/>
+<meta property="article:tag" content="Automobile engine"/>
+<meta property="article:tag" content="Automotive chassis"/>
+<meta property="article:tag" content="Cars"/>
+<meta property="article:tag" content="clutch"/>
+<meta property="article:section" content="Automobile"/>
+<meta property="article:published_time" content="2020-06-12T23:49:36+00:00"/>
+<meta property="article:modified_time" content="2020-07-13T23:56:26+00:00"/>
+<meta property="og:updated_time" content="2020-07-13T23:56:26+00:00"/>
+<meta property="og:image" content="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?fit=1140%2C550&amp;ssl=1"/>
+<meta property="og:image:secure_url" content="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?fit=1140%2C550&amp;ssl=1"/>
+<meta property="og:image:width" content="1140"/>
+<meta property="og:image:height" content="550"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="Today we’ll be looking at the definition, working principle, parts, types, functions, as well as problems of clutch system in an automobile engines."/>
+<meta name="twitter:title" content="Clutch: definition, working, functions, types, parts,problems - Studentlesson"/>
+<meta name="twitter:site" content="@studentlesson2"/>
+<meta name="twitter:image" content="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?fit=1140%2C550&amp;ssl=1"/>
+<meta name="twitter:creator" content="@studentlesson2"/>
+<script type="application/ld+json" class="yoast-schema-graph yoast-schema-graph--main">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://studentlesson.com/#organization","name":"Student lesson","url":"https://studentlesson.com/","sameAs":["https://mobile.facebook.com/Student-Lesson-109205867079021","https://www.instagram.com/studentlesson","https://www.linkedin.com/in/godwin-ipinyomi-782419134","https://www.pinterest.com/studentlesson/","http://Wikipedia.org","https://twitter.com/studentlesson2"],"logo":{"@type":"ImageObject","@id":"https://studentlesson.com/#logo","url":"https://i0.wp.com/studentlesson.com/wp-content/uploads/2019/07/IMG_20190725_201458_707.jpg?fit=449%2C430&ssl=1","width":449,"height":430,"caption":"Student lesson"},"image":{"@id":"https://studentlesson.com/#logo"}},{"@type":"WebSite","@id":"https://studentlesson.com/#website","url":"https://studentlesson.com/","name":"Student Lesson","publisher":{"@id":"https://studentlesson.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://studentlesson.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://studentlesson.com/clutch-definition-working-functions-types-parts/#primaryimage","url":"https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?fit=1140%2C550&ssl=1","width":1140,"height":550,"caption":"car clutch"},{"@type":"WebPage","@id":"https://studentlesson.com/clutch-definition-working-functions-types-parts/#webpage","url":"https://studentlesson.com/clutch-definition-working-functions-types-parts/","inLanguage":"en-US","name":"Clutch: definition, working, functions, types, parts,problems - Studentlesson","isPartOf":{"@id":"https://studentlesson.com/#website"},"primaryImageOfPage":{"@id":"https://studentlesson.com/clutch-definition-working-functions-types-parts/#primaryimage"},"datePublished":"2020-06-12T23:49:36+00:00","dateModified":"2020-07-13T23:56:26+00:00","description":"Today we\u2019ll be looking at the definition, working principle, parts, types, functions, as well as problems of clutch system in an automobile engines."},{"@type":"Article","@id":"https://studentlesson.com/clutch-definition-working-functions-types-parts/#article","isPartOf":{"@id":"https://studentlesson.com/clutch-definition-working-functions-types-parts/#webpage"},"author":{"@id":"https://studentlesson.com/#/schema/person/1aa8481a8440a63580d0d3134418ee7d"},"headline":"Everything you need to know about automobile clutch","datePublished":"2020-06-12T23:49:36+00:00","dateModified":"2020-07-13T23:56:26+00:00","commentCount":0,"mainEntityOfPage":{"@id":"https://studentlesson.com/clutch-definition-working-functions-types-parts/#webpage"},"publisher":{"@id":"https://studentlesson.com/#organization"},"image":{"@id":"https://studentlesson.com/clutch-definition-working-functions-types-parts/#primaryimage"},"keywords":"Automobile engine,Automotive chassis,Cars,clutch","articleSection":"Automobile"},{"@type":["Person"],"@id":"https://studentlesson.com/#/schema/person/1aa8481a8440a63580d0d3134418ee7d","name":"admin","image":{"@type":"ImageObject","@id":"https://studentlesson.com/#authorlogo","url":"https://secure.gravatar.com/avatar/532b6f9ccde353355001086fabf531be?s=96&d=mm&r=g","caption":"admin"},"sameAs":["Admin"]}]}</script>
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com"/>
+<link rel="dns-prefetch" href="//s.w.org"/>
+<link rel="dns-prefetch" href="//c0.wp.com"/>
+<link rel="dns-prefetch" href="//i0.wp.com"/>
+<link rel="alternate" type="application/rss+xml" title="Student Lesson » Feed" href="https://studentlesson.com/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Student Lesson » Comments Feed" href="https://studentlesson.com/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Student Lesson » Everything you need to know about automobile clutch Comments Feed" href="https://studentlesson.com/clutch-definition-working-functions-types-parts/feed/"/>
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/studentlesson.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/6.0.1/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"/>
+<style id="wp-block-library-inline-css" type="text/css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel="stylesheet" id="mediaelement-css" href="https://c0.wp.com/c/6.0.1/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-mediaelement-css" href="https://c0.wp.com/c/6.0.1/wp-includes/js/mediaelement/wp-mediaelement.min.css" type="text/css" media="all"/>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="crp-style-text-only-css" href="https://studentlesson.com/wp-content/plugins/contextual-related-posts/css/text-only.min.css?ver=3.2.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="toc-screen-css" href="https://studentlesson.com/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2106" type="text/css" media="all"/>
+<link rel="stylesheet" id="contentberg-fonts-css" href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C700%7CPT+Serif%3A400%2C400i%2C600%7CIBM+Plex+Serif%3A500&amp;subset=latin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext%2Cgreek%2Cgreek-ext%2Cvietnamese" type="text/css" media="all"/>
+<link rel="stylesheet" id="contentberg-core-css" href="https://studentlesson.com/wp-content/themes/contentberg/style.css?ver=2.1.0" type="text/css" media="all"/>
+<link rel="stylesheet" id="contentberg-lightbox-css" href="https://studentlesson.com/wp-content/themes/contentberg/css/lightbox.css?ver=2.1.0" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="https://studentlesson.com/wp-content/themes/contentberg/css/fontawesome/css/font-awesome.min.css?ver=2.1.0" type="text/css" media="all"/>
+<link rel="stylesheet" id="social-logos-css" href="https://c0.wp.com/p/jetpack/11.2/_inc/social-logos/social-logos.min.css" type="text/css" media="all"/>
+<link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/11.2/css/jetpack.css" type="text/css" media="all"/>
+<script type="text/javascript" src="https://c0.wp.com/c/6.0.1/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/6.0.1/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://studentlesson.com/wp-json/"/><link rel="alternate" type="application/json" href="https://studentlesson.com/wp-json/wp/v2/posts/1414"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://studentlesson.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://studentlesson.com/wp-includes/wlwmanifest.xml"/> 
+<meta name="generator" content="WordPress 6.0.1"/>
+<link rel="shortlink" href="https://studentlesson.com/?p=1414"/>
+<link rel="alternate" type="application/json+oembed" href="https://studentlesson.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstudentlesson.com%2Fclutch-definition-working-functions-types-parts%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://studentlesson.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstudentlesson.com%2Fclutch-definition-working-functions-types-parts%2F&amp;format=xml"/>
+<style type="text/css">div#toc_container {background: #FFFFFF;border: 1px solid #aaaaaa;}div#toc_container p.toc_title a,div#toc_container ul.toc_list a {color: #5d605a;}div#toc_container p.toc_title a:hover,div#toc_container ul.toc_list a:hover {color: #313838;}div#toc_container p.toc_title a:hover,div#toc_container ul.toc_list a:hover {color: #313838;}div#toc_container p.toc_title a:visited,div#toc_container ul.toc_list a:visited {color: #0a0303;}</style><style>img#wpstats{display:none}</style>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		<link rel="icon" href="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/06/Studentlesson-1Artboard-1@1.5x-8.png-dd.jpg?fit=32%2C32&amp;ssl=1" sizes="32x32"/>
+<link rel="icon" href="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/06/Studentlesson-1Artboard-1@1.5x-8.png-dd.jpg?fit=192%2C183&amp;ssl=1" sizes="192x192"/>
+<link rel="apple-touch-icon" href="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/06/Studentlesson-1Artboard-1@1.5x-8.png-dd.jpg?fit=180%2C172&amp;ssl=1"/>
+<meta name="msapplication-TileImage" content="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/06/Studentlesson-1Artboard-1@1.5x-8.png-dd.jpg?fit=214%2C204&amp;ssl=1"/>
+
+<style id='ezoicCSS'>.ezoic-at-0{margin-right:auto !important;float:none !important;min-width:300px;margin-left:auto !important;padding:0;max-width:100% !important;display:block !important;line-height:0px;text-align:center !important;}
+.ezoic-ad.medrectangle-2100{padding:0;float:none !important;display:inline-block;min-width:728px;min-height:90px;max-width:100% !important;line-height:0px;}
+.ezoic-ad.leader-1106{margin-bottom:2px !important;min-height:250px;margin-top:2px !important;min-width:250px;}
+.ezoic-ad.large-mobile-banner-1116{margin-bottom:15px !important;min-height:250px;margin-top:15px !important;}
+.ezoic-ad.box-1103{margin-top:2px !important;margin-bottom:2px !important;min-height:250px;}
+.ezoic-ad.large-leaderboard-1104{margin-bottom:0px !important;background:0 0 !important;width:300px;margin-top:0px !important;min-height:0px !important;}
+.ezoic-ad.medrectangle-1117{min-height:250px;margin-top:15px !important;min-width:970px;margin-bottom:15px !important;}
+.ezoic-ad.medrectangle-3105{min-width:336px;margin-bottom:2px !important;min-height:280px;margin-top:2px !important;}
+.ezoic-ad.box-4113{margin-top:15px !important;margin-bottom:15px !important;min-height:250px;}
+.ezoic-ad.banner-1114{margin-top:15px !important;min-height:250px;margin-bottom:15px !important;}
+.ezoic-ad{display:inline-block;border:0px;}.ezoic-ad>div>iframe{margin:0px!important;padding:0px!important;}
+.ezmob-footer{position:fixed;left:0;bottom:0;width:100%;background:#fff;z-index:100000;line-height:0}.ezmob-footer-desktop{background-color:#fffc;border-top:1px solid #d3d3d3;padding-top:5px}.ezmob-footer-close{cursor:pointer;color:#b2b2b2;border:1px solid #b2b2b2;border-radius:20px;background:#fff;line-height:20px;display:inline-block;font-size:20px;font-family:arial,sans-serif;padding:0 5px;position:absolute;top:5px;right:5px;height:24px;width:21px;text-align:center}body {
+					padding-bottom: 100px !important;
+					height: auto;
+				}
+				</style><script type="text/javascript">var ezouid = "1";</script><base href="https://studentlesson.com/clutch-definition-working-functions-types-parts/"><script type='text/javascript'>
+var ezoTemplate = 'pub_site';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script><!-- START EZHEAD -->
+<script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 354107;
+var ezdomain = 'studentlesson.com';
+var ezoicSearchable = 1;
+</script>
+<!--{jquery}-->
+<!-- END EZHEAD -->
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl(pvID, rv) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    __ez.ck.setByCat("ezux_lpl_354107=" + new Date().getTime() + "|" + pvID + "|" + rv + "; " + expires, 3);
+}
+function attach_ezolpl(pvID, rv) {
+    if (document.readyState === "complete") {
+        create_ezolpl(pvID, rv);
+    }
+    if(window.attachEvent) {
+        window.attachEvent("onload", create_ezolpl, pvID, rv);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl(pvID, rv);
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl.bind(null, pvID, rv);
+        }
+    }
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["02c93e7f-4a81-4550-4b9e-c43dec420f5a", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script>
+<script type="text/javascript">var _audins_dom="studentlesson_com",_audins_did=354107;__ez.queue.addFile('/detroitchicago/cmbv2.js', '/detroitchicago/cmbv2.js?gcb=195-0&cb=04-3y02-8y06-13y07-2y0b-6y0d-21y13-4y17-5y1f-5y21-3y22-4y23-1y2f-4y57-2y5b-22y62-1&cmbcb=105&sj=x04x02x06x07x0bx0dx13x17x1fx21x22x23x2fx57x5bx62', true, [], true, false, true, false);</script>
+<script type="text/javascript" defer>__ez.queue.addFile('/detroitchicago/cmbdv2.js', '/detroitchicago/cmbdv2.js?gcb=195-0&cb=03-8y0c-6y18-5y5c-22&cmbcb=105&sj=x03x0cx18x5c', true, ['/detroitchicago/cmbv2.js'], true, false, true, false);</script></head>
+
+<body class="post-template-default single single-post postid-1414 single-format-standard right-sidebar  layout-magazine has-lb">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0"></feFuncR><feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>
+<div class="main-wrap">
+
+	
+		
+		
+<header id="main-head" class="main-head head-nav-below has-search-modal simple simple-boxed">
+
+	<div class="inner inner-head" data-sticky-bar="">
+	
+		<div class="wrap cf wrap-head">
+		
+			<div class="left-contain">
+				<span class="mobile-nav"><i class="fa fa-bars"></i></span>	
+			
+					<div class="title">
+		
+		<a href="https://studentlesson.com/" title="Student Lesson" rel="home">
+		
+					
+						
+			<img src="https://studentlesson.com/wp-content/uploads/2022/05/Studentlesson-4Artboard-1@1.5x-1001.jpg" class="logo-image" alt="Student Lesson"/>
+
+				
+		</a>
+	
+	</div>			
+			</div>
+				
+				
+			<div class="navigation-wrap inline">
+								
+				<nav class="navigation inline simple light" data-sticky-bar="">
+					<div class="menu-top-bar-menu-container"><ul id="menu-top-bar-menu" class="menu"><li id="menu-item-59" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-59"><a href="https://studentlesson.com/category/automobile/"><span>Automobile</span></a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-60"><a href="https://studentlesson.com/category/elect-elect/"><span>Electrical Electronic</span></a></li>
+<li id="menu-item-62" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-62"><a href="https://studentlesson.com/category/metalwork/"><span>Metalwork</span></a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-63"><a href="https://studentlesson.com/category/woodwork/"><span>Woodwork</span></a></li>
+</ul></div>				</nav>
+				
+							</div>
+			
+			<div class="actions">
+			
+				
+	
+		<ul class="social-icons cf">
+		
+					
+			<li><a href="https://web.facebook.com/studentlessonn" class="fa fa-facebook" target="_blank"><span class="visuallyhidden">Facebook</span></a></li>
+									
+					
+			<li><a href="https://twitter.com/Studentlesson3" class="fa fa-twitter" target="_blank"><span class="visuallyhidden">Twitter</span></a></li>
+									
+					
+			<li><a href="https://www.instagram.com/studentlesson/" class="fa fa-instagram" target="_blank"><span class="visuallyhidden">Instagram</span></a></li>
+									
+					
+			<li><a href="https://www.pinterest.com/studentlesson/_created/" class="fa fa-pinterest-p" target="_blank"><span class="visuallyhidden">Pinterest</span></a></li>
+									
+					
+			<li><a href="#" class="fa fa-rss" target="_blank"><span class="visuallyhidden">RSS</span></a></li>
+									
+					
+			<li><a href="#" class="fa fa-linkedin" target="_blank"><span class="visuallyhidden">LinkedIn</span></a></li>
+									
+					
+		</ul>
+	
+								
+								
+					<a href="#" title="Search" class="search-link"><i class="fa fa-search"></i></a>
+									
+				
+							
+			</div>
+
+		</div>
+	</div>
+
+</header> <!-- .main-head -->	
+		
+	
+<div class="main wrap">
+
+	<div id="post-1414" class="single-magazine post-1414 post type-post status-publish format-standard has-post-thumbnail category-automobile tag-automobile-engine tag-automotive-chassis tag-cars tag-clutch">
+
+	<div class="post-top cf">
+		
+				
+		<span class="cat-label cf color">					
+		<a href="https://studentlesson.com/category/automobile/" class="category">Automobile</a>
+
+		</span>
+		
+				
+		<h1 class="post-title">Everything you need to know about automobile clutch</h1>
+		
+				
+			<div class="post-meta post-meta-a the-post-meta">
+		
+					
+					<a href="https://studentlesson.com/clutch-definition-working-functions-types-parts/" class="date-link"><time class="post-date" datetime="2020-06-12T23:49:36+00:00">June 12, 2020</time></a>
+				
+		
+	</div>
+				
+	</div>
+
+
+	<div class="ts-row cf">
+		<div class="col-8 main-content cf">
+
+			<article class="the-post">
+			
+				<header class="post-header cf">
+			
+										
+				</header><!-- .post-header -->
+			
+							
+		
+		<div class="post-content description cf entry-content has-share-float content-spacious">
+
+
+			<!-- Ezoic - Ezoic under_first_paragraph - under_first_paragraph -->
+<span id="ezoic-pub-ad-placeholder-105"></span><span class="ezoic-ad ezoic-at-0 medrectangle-3 medrectangle-3105 adtester-container adtester-container-105" data-ez-name="studentlesson_com-medrectangle-3"><span id="div-gpt-ad-studentlesson_com-medrectangle-3-0" ezaw="336" ezah="280" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:280px;min-width:336px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">
+	var cid = '8506434921';
+	var pid = 'ca-pub-3794702375190742';
+	var slotId = 'div-gpt-ad-studentlesson_com-medrectangle-3-0';
+	var ffid = 1;
+	var alS = 1021 % 1000;
+
+	var container = document.getElementById(slotId);
+	container.style.width = '100%';
+
+	var ins = document.createElement('ins');
+    ins.id = slotId + '-asloaded';
+    ins.className = 'adsbygoogle ezasloaded';
+    ins.dataset.adClient = pid;
+
+	ins.dataset.adChannel = cid;
+
+	if(ffid == 2){
+		ins.dataset.fullWidthResponsive = 'true';
+	}
+
+	ins.style.display = 'block';
+	ins.style.minWidth = container.attributes.ezaw.value + 'px';
+	ins.style.width = '100%';
+	
+	ins.style.height = container.attributes.ezah.value + 'px';
+
+	container.appendChild(ins);
+
+	(adsbygoogle = window.adsbygoogle || []).push({});
+
+	window.ezoSTPixelAdd(slotId, 'stat_source_id', 44);
+	window.ezoSTPixelAdd(slotId, 'adsensetype', 1);
+	
+	var lo = new MutationObserver(window.ezaslEvent);
+    lo.observe(document.getElementById(slotId + '-asloaded'), { attributes: true });
+	</script></span></span>
+<!-- End Ezoic - Ezoic under_first_paragraph - under_first_paragraph --><p>In an automobile engine, there is a mechanical device that allows the engine to work at a stationary position It is called a <strong>clutch</strong>. The component engages and disengages power transmission especially from a driving shaft to the driven shaft. In order word, clutches connect and disconnect two rotating shafts (drive shafts or line shafts).</p>
+<p><img class="aligncenter size-medium wp-image-1435 jetpack-lazy-image" src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?resize=300%2C145&amp;ssl=1" alt="car clutch" width="300" height="145" data-recalc-dims="1" data-lazy-srcset="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?resize=300%2C145&amp;ssl=1 300w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?resize=1024%2C494&amp;ssl=1 1024w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?resize=768%2C371&amp;ssl=1 768w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?w=1140&amp;ssl=1 1140w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?resize=300%2C145&amp;is-pending-load=1#038;ssl=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/><noscript><img data-lazy-fallback="1" class="aligncenter size-medium wp-image-1435" src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?resize=300%2C145&#038;ssl=1" alt="car clutch" width="300" height="145" srcset="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?resize=300%2C145&amp;ssl=1 300w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?resize=1024%2C494&amp;ssl=1 1024w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?resize=768%2C371&amp;ssl=1 768w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/car-clutch-plate.jpg?w=1140&amp;ssl=1 1140w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1"  /></noscript></p>
+<p>Today we’ll be looking at the definition, working principle, parts, types, functions, as well as problems of clutch system in an automobile engines.</p>
+<div id="toc_container" class="no_bullets"><p class="toc_title">Contents</p><ul class="toc_list"><li><a href="#What_is_a_clutch"><span class="toc_number toc_depth_1">1</span> What is a clutch?</a></li><li><a href="#Working_principle_of_a_clutch"><span class="toc_number toc_depth_1">2</span> Working principle of a clutch</a></li><li><a href="#Parts_of_a_clutch"><span class="toc_number toc_depth_1">3</span> Parts of a clutch:</a></li><li><a href="#Different_types_of_clutches"><span class="toc_number toc_depth_1">4</span> Different types of clutches:</a><ul><li><a href="#Types_of_clutch_linkages"><span class="toc_number toc_depth_2">4.1</span> Types of clutch linkages:</a></li></ul></li><li><a href="#Functions_of_clutch"><span class="toc_number toc_depth_1">5</span> Functions of clutch:</a></li><li><a href="#Common_Clutch_Problems"><span class="toc_number toc_depth_1">6</span> Common Clutch Problems:</a><ul><li><a href="#Join_our_Newsletter"><span class="toc_number toc_depth_2">6.1</span> Join our Newsletter</a></li><li><a href="#Kindly_Share"><span class="toc_number toc_depth_2">6.2</span> Kindly Share!</a></li></ul></li></ul></div>
+<h2><span id="What_is_a_clutch"><strong>What is a clutch?</strong></span></h2>
+<p>A clutch is a mechanical device that engages and disengages the power transmission from the driving shaft to the driven shaft. The device features two-shaft, one is connected to the engine or power unit (the driving member) while the other shaft provides the power output that does the work.</p>
+<p>Read: <a href="https://studentlesson.com/conventional-and-non-conventional-types-of-automobile-chassis-studentlesson/">Conventional and Non-conventional types of automobile chassis</a></p>
+<h2><span id="Working_principle_of_a_clutch"><strong>Working principle of a clutch</strong></span></h2>
+<p>The working principle of a clutch is quite interesting and easy to understand. It works perfectly fine that no torque/power is transmitted until the friction plates touch each other. The clutch consists of two different plates, one is mounted to the flywheel and the other moves over the crankshaft. The amount of torque applied to determine the amount of axial load that is applied to the friction disc. This is to say the more the axial load the more the power transmission and the less the axial load, the lesser the power transmission.<span id="ezoic-pub-ad-placeholder-113" class="ezoic-adpicker-ad"></span><span class="ezoic-ad ezoic-at-0 box-4 box-4113 adtester-container adtester-container-113" data-ez-name="studentlesson_com-box-4"><span id="div-gpt-ad-studentlesson_com-box-4-0" ezaw="300" ezah="250" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:250px;min-width:300px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[300,250],'studentlesson_com-box-4','ezslot_8',113,'0','0'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-box-4-0')};</script></span></span></p><div class="9ITHx6SR"><span id="ezoic-pub-ad-placeholder-102"></span></div>
+<p>The moveable disc which is splined on crankshaft moves back and forth with the aid of the clutch pedal. The load is applied by the pressure plate which is connected to multiple helical springs or single diaphragm spring.</p>
+<p>If the clutch pedal is complete press, the moveable friction disc moves back from the shaft which disengaged from the flywheel. As there is no axial load applied by the pressure plate hence there is no power/torque transmission applied. This is why the engine can run without moving.<span id="ezoic-pub-ad-placeholder-114" class="ezoic-adpicker-ad"></span><span class="ezoic-ad ezoic-at-0 banner-1 banner-1114 adtester-container adtester-container-114" data-ez-name="studentlesson_com-banner-1"><span id="div-gpt-ad-studentlesson_com-banner-1-0" ezaw="300" ezah="250" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:250px;min-width:300px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[300,250],'studentlesson_com-banner-1','ezslot_7',114,'0','0'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-banner-1-0')};</script></span></span></p>
+<p>And if the clutch pedal is completely released, the moveable friction disc slides forward on the shaft to the flywheel. This is the engaged condition when the disc touches the flywheel.</p>
+<p>The amount of working pressure applied is also determined by how much the clutch pedal is pressed. This means the amount of axial load applied by the pressure plate will reflect on the power transmitted.</p><div class="7FC0wFtG"></div>
+<p><strong>The video below contains how a clutch works:</strong></p>
+<p><iframe loading="lazy" title="How a clutch works! (Animation)" width="770" height="433" src="https://www.youtube.com/embed/pqF-aBtTBnY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+<h2><span id="Parts_of_a_clutch"><strong>Parts of a clutch:</strong></span></h2>
+<p>The following are the major parts of a clutch but there are a lot of small parts that are still featured in it:</p>
+<p><strong>1. Flywheel</strong>: this clutch part is mounted on the crankshaft, it keeps running as long as the engine is working. A friction disc is mounted on the outer side of the flywheel.</p>
+<p><strong>2. Friction disc</strong>: the friction disc could be single or multiple discs depending on its application. It is made an of material with a high coefficient of friction. The friction disc is mounted on a drive shaft.</p>
+<p><strong>3. Pressure plate</strong>: the pressure plate features another friction disc on it. this pressure plate is mounted on the splined hub.</p><div class="oFvQ8T4E"><!-- Ezoic - long_content - long_content -->
+<span id="ezoic-pub-ad-placeholder-106"></span><span class="ezoic-ad ezoic-at-0 leader-1 leader-1106 adtester-container adtester-container-106" data-ez-name="studentlesson_com-leader-1"><span id="div-gpt-ad-studentlesson_com-leader-1-0" ezaw="250" ezah="250" style="position:relative;z-index:0;display:inline-block;padding:0;width:100%;max-width:1200px;margin-left:auto !important;margin-right:auto !important;min-height:250px;min-width:250px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[250,250],'studentlesson_com-leader-1','ezslot_9',106,'0','0'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-leader-1-0')};</script></span></span>
+<!-- End Ezoic - long_content - long_content --></div>
+<p><strong>4. Spring and release levers</strong>: the function of the springs is to move the friction disc back and forth. Clutches use diaphragm spring and levers help to retract the spring.</p>
+<p><img class="aligncenter size-medium wp-image-1434 jetpack-lazy-image" src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/clutch-parts.png?resize=300%2C210&amp;ssl=1" alt="parts of car clutch" width="300" height="210" data-recalc-dims="1" data-lazy-srcset="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/clutch-parts.png?resize=300%2C210&amp;ssl=1 300w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/clutch-parts.png?w=459&amp;ssl=1 459w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/clutch-parts.png?resize=300%2C210&amp;is-pending-load=1#038;ssl=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/><noscript><img data-lazy-fallback="1" loading="lazy" class="aligncenter size-medium wp-image-1434" src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/clutch-parts.png?resize=300%2C210&#038;ssl=1" alt="parts of car clutch" width="300" height="210" srcset="https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/clutch-parts.png?resize=300%2C210&amp;ssl=1 300w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2020/06/clutch-parts.png?w=459&amp;ssl=1 459w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1"  /></noscript></p>
+<h2><span id="Different_types_of_clutches"><strong>Different types of clutches:</strong></span></h2>
+<p>The following stated below represent different types of clutch used on engines</p>
+<ul>
+<li>Single-plate clutch</li>
+<li>Multi-plate clutch</li>
+<li>Cone clutch</li>
+<li>Centrifugal clutch</li>
+<li>Electromagnetic clutch</li>
+<li>Hydraulic clutch</li>
+</ul>
+<h3><span id="Types_of_clutch_linkages"><strong>Types of clutch linkages:</strong></span></h3>
+<ul>
+<li>Shaft and lever linkage</li>
+<li>Cable linkage</li>
+<li>Hydraulic-operator clutch linkage</li>
+</ul>
+<p>Read: <a href="https://studentlesson.com/four-stroke-engine/">Four-stroke engine: everything you need to know</a><span id="ezoic-pub-ad-placeholder-116" class="ezoic-adpicker-ad"></span><span class="ezoic-ad ezoic-at-0 large-mobile-banner-1 large-mobile-banner-1116 adtester-container adtester-container-116" data-ez-name="studentlesson_com-large-mobile-banner-1"><span id="div-gpt-ad-studentlesson_com-large-mobile-banner-1-0" ezaw="300" ezah="250" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:250px;min-width:300px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[300,250],'studentlesson_com-large-mobile-banner-1','ezslot_10',116,'0','0'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-large-mobile-banner-1-0')};</script></span></span></p>
+<h2><span id="Functions_of_clutch"><strong>Functions of clutch:</strong></span></h2>
+<p>Below are the functions of a clutch in a car:</p><div class="qBY5LNhV"><!-- Ezoic - long_content - long_content -->
+
+<!-- End Ezoic - long_content - long_content --></div>
+<ol>
+<li>The clutch helps the engine to run at a stationary position.</li>
+<li>It can be used to reduce engine speed.</li>
+<li>it enables easy changing of gears.</li>
+<li>Smooth vehicle control is achieved</li>
+</ol>
+<h2><span id="Common_Clutch_Problems">Common Clutch Problems:</span></h2>
+<p>Clutches are expected to last up to 80,00 miles if treated and maintained. below are the common problem that often occur on car clutch:</p><div class="9zBYCnrj"><h3><span id="Join_our_Newsletter">Join our Newsletter</span></h3>
+<script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.8.7 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-1403" method="post" data-id="1403" data-name="studentlesson updates"><div class="mc4wp-form-fields"><p>
+	<label> 
+		<input type="email" name="EMAIL" placeholder="Your email address" required=""/>
+</label>
+</p>
+
+<p>
+	<input type="submit" value="submit"/>
+</p></div><label style="display: none !important;">Leave this field empty if you&#39;re human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"/></label><input type="hidden" name="_mc4wp_timestamp" value="1660490238"/><input type="hidden" name="_mc4wp_form_id" value="1403"/><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"/><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>
+<ul>
+<li>Wearing</li>
+<li>Broken Cable:</li>
+<li>misalignment</li>
+<li>Leaks</li>
+<li>Air in the hydraulic line</li>
+<li>Hard clutch</li>
+</ul>
+<p>That’s it for this article, “Understanding automobile Clutch System”. I hope you enjoyed the reading, if so, kindly comment, share and recommend this site to technical other students. Thanks!</p>
+<p></p><p></p><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title"><span id="Kindly_Share">Kindly Share!</span></h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-1414" class="share-twitter sd-button share-icon no-text" href="https://studentlesson.com/clutch-definition-working-functions-types-parts/?share=twitter" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-1414" class="share-facebook sd-button share-icon no-text" href="https://studentlesson.com/clutch-definition-working-functions-types-parts/?share=facebook" target="_blank" title="Click to share on Facebook"><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow noopener noreferrer" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://studentlesson.com/clutch-definition-working-functions-types-parts/?share=reddit" target="_blank" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-jetpack-whatsapp"><a rel="nofollow noopener noreferrer" data-shared="" class="share-jetpack-whatsapp sd-button share-icon no-text" href="https://studentlesson.com/clutch-definition-working-functions-types-parts/?share=jetpack-whatsapp" target="_blank" title="Click to share on WhatsApp"><span></span><span class="sharing-screen-reader-text">Click to share on WhatsApp (Opens in new window)</span></a></li><li class="share-pinterest"><a rel="nofollow noopener noreferrer" data-shared="sharing-pinterest-1414" class="share-pinterest sd-button share-icon no-text" href="https://studentlesson.com/clutch-definition-working-functions-types-parts/?share=pinterest" target="_blank" title="Click to share on Pinterest"><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest (Opens in new window)</span></a></li><li class="share-tumblr"><a rel="nofollow noopener noreferrer" data-shared="" class="share-tumblr sd-button share-icon no-text" href="https://studentlesson.com/clutch-definition-working-functions-types-parts/?share=tumblr" target="_blank" title="Click to share on Tumblr"><span></span><span class="sharing-screen-reader-text">Click to share on Tumblr (Opens in new window)</span></a></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-1414" class="share-linkedin sd-button share-icon no-text" href="https://studentlesson.com/clutch-definition-working-functions-types-parts/?share=linkedin" target="_blank" title="Click to share on LinkedIn"><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-telegram"><a rel="nofollow noopener noreferrer" data-shared="" class="share-telegram sd-button share-icon no-text" href="https://studentlesson.com/clutch-definition-working-functions-types-parts/?share=telegram" target="_blank" title="Click to share on Telegram"><span></span><span class="sharing-screen-reader-text">Click to share on Telegram (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div><div class="crp_related     crp-text-only"><h4>Also check:</h4><ul><li><a href="https://studentlesson.com/types-of-engine-layouts/" class="crp_link post-742"><span class="crp_title">Different types of engine layout</span></a></li><li><a href="https://studentlesson.com/multi-plate-and-single-plate-clutch-difference/" class="crp_link post-3215"><span class="crp_title">Difference between multi-plate and single-plate clutch</span></a></li><li><a href="https://studentlesson.com/everything-you-need-to-know-about-transmission-system/" class="crp_link post-1477"><span class="crp_title">Everything you need to know about transmission system</span></a></li><li><a href="https://studentlesson.com/definition-applications-construction-parts-diagram-working-of-cone-clutch/" class="crp_link post-3193"><span class="crp_title">Understanding Cone Clutch</span></a></li><li><a href="https://studentlesson.com/four-stroke-engines/" class="crp_link post-801"><span class="crp_title">Understanding four-stroke engines</span></a></li><li><a href="https://studentlesson.com/working-and-effectiveness-of-a-propeller-shaft/" class="crp_link post-1554"><span class="crp_title">Working and effectiveness of a propeller shaft</span></a></li><li><a href="https://studentlesson.com/how-car-engine-works/" class="crp_link post-720"><span class="crp_title">Understanding how car engine works</span></a></li><li><a href="https://studentlesson.com/car-engine-cylinder-configurations/" class="crp_link post-749"><span class="crp_title">Car Engine Cylinder Configurations</span></a></li><li><a href="https://studentlesson.com/layout-of-an-automobile-chassis/" class="crp_link post-702"><span class="crp_title">Chassis Layout of a vehicle</span></a></li><li><a href="https://studentlesson.com/different-types-of-clutch-and-their-working-principle/" class="crp_link post-1437"><span class="crp_title">Different Types of clutch and their working principle</span></a></li></ul><div class="crp_clear"></div></div>				
+		</div><!-- .post-content -->
+		
+		<div class="the-post-foot cf">
+		
+						
+			<div class="tag-share cf">
+				
+									<div class="post-tags"><a href="https://studentlesson.com/tag/automobile-engine/" rel="tag">Automobile engine</a><a href="https://studentlesson.com/tag/automotive-chassis/" rel="tag">Automotive chassis</a><a href="https://studentlesson.com/tag/cars/" rel="tag">Cars</a><a href="https://studentlesson.com/tag/clutch/" rel="tag">clutch</a></div>				
+									
+			</div>
+
+			
+		</div>
+		
+				
+		
+				
+		
+
+<section class="related-posts grid-3">
+
+	<h4 class="section-head"><span class="title">Related Posts</span></h4> 
+	
+	<div class="ts-row posts cf">
+	
+			<article class="post col-4">
+					
+			<a href="https://studentlesson.com/machine/" title="Understanding Machine" class="image-link">
+				<img width="270" height="180" src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/what-is-a-machine.jpg?resize=270%2C180&amp;ssl=1" class="image wp-post-image jetpack-lazy-image" alt="what is a machine" title="Understanding Machine" data-lazy-srcset="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/what-is-a-machine.jpg?resize=270%2C180&amp;ssl=1 270w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/what-is-a-machine.jpg?resize=770%2C515&amp;ssl=1 770w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/what-is-a-machine.jpg?resize=370%2C245&amp;ssl=1 370w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/what-is-a-machine.jpg?zoom=2&amp;resize=270%2C180&amp;ssl=1 540w" data-lazy-sizes="(max-width: 270px) 100vw, 270px" data-lazy-src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/what-is-a-machine.jpg?resize=270%2C180&amp;ssl=1&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>			</a>
+			
+			<div class="content">
+				
+				<h3 class="post-title"><a href="https://studentlesson.com/machine/" class="post-link">Understanding Machine</a></h3>
+
+				<div class="post-meta">
+					<time class="post-date" datetime="2022-07-28T06:09:12+00:00">July 28, 2022</time>
+				</div>
+			
+			</div>
+
+		</article>
+		
+			<article class="post col-4">
+					
+			<a href="https://studentlesson.com/lever-applications-components-and-examples/" title="Understanding a Lever system" class="image-link">
+				<img width="270" height="180" src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/lever.jpg?resize=270%2C180&amp;ssl=1" class="image wp-post-image jetpack-lazy-image" alt="lever" title="Understanding a Lever system" data-lazy-srcset="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/lever.jpg?resize=270%2C180&amp;ssl=1 270w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/lever.jpg?resize=770%2C515&amp;ssl=1 770w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/lever.jpg?resize=370%2C245&amp;ssl=1 370w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/lever.jpg?zoom=2&amp;resize=270%2C180&amp;ssl=1 540w" data-lazy-sizes="(max-width: 270px) 100vw, 270px" data-lazy-src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/lever.jpg?resize=270%2C180&amp;ssl=1&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>			</a>
+			
+			<div class="content">
+				
+				<h3 class="post-title"><a href="https://studentlesson.com/lever-applications-components-and-examples/" class="post-link">Understanding a Lever system</a></h3>
+
+				<div class="post-meta">
+					<time class="post-date" datetime="2022-07-28T05:47:28+00:00">July 28, 2022</time>
+				</div>
+			
+			</div>
+
+		</article>
+		
+			<article class="post col-4">
+					
+			<a href="https://studentlesson.com/types-of-bolt-heads/" title="Different Types of bolt heads" class="image-link">
+				<img width="270" height="180" src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/Types-of-bolt-heads.webp?resize=270%2C180&amp;ssl=1" class="image wp-post-image jetpack-lazy-image" alt="Types of bolt heads" title="Different Types of bolt heads" data-lazy-srcset="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/Types-of-bolt-heads.webp?resize=270%2C180&amp;ssl=1 270w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/Types-of-bolt-heads.webp?resize=770%2C515&amp;ssl=1 770w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/Types-of-bolt-heads.webp?resize=370%2C245&amp;ssl=1 370w, https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/Types-of-bolt-heads.webp?zoom=2&amp;resize=270%2C180&amp;ssl=1 540w" data-lazy-sizes="(max-width: 270px) 100vw, 270px" data-lazy-src="https://i0.wp.com/studentlesson.com/wp-content/uploads/2022/07/Types-of-bolt-heads.webp?resize=270%2C180&amp;ssl=1&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>			</a>
+			
+			<div class="content">
+				
+				<h3 class="post-title"><a href="https://studentlesson.com/types-of-bolt-heads/" class="post-link">Different Types of bolt heads</a></h3>
+
+				<div class="post-meta">
+					<time class="post-date" datetime="2022-07-19T08:11:47+00:00">July 19, 2022</time>
+				</div>
+			
+			</div>
+
+		</article>
+		
+		
+	</div>
+	
+</section>
+
+		
+		<div class="comments">
+	<div id="comments" class="comments-area">
+
+		
+	
+		<div id="respond" class="comment-respond"><span id="ezoic-pub-ad-placeholder-126" class="ezoic-adpicker-ad"></span><span class="ezoic-ad ezoic-at-2 nativedouble-1 nativedouble-1126 adtester-container adtester-container-126" data-ez-name="studentlesson_com-nativedouble-1"><div class="OUTBRAIN" data-ob-contenturl="https://studentlesson.com/clutch-definition-working-functions-types-parts/" data-ob-installation-key="EZOICL9MFJN21JB32NFBE7ODP" data-external-id="354107_1_126_100x480" data-widget-id="AR_1"></div>
+<div data-expand="100" class="ezlazyload" data-script="//widgets.outbrain.com/outbrain.js"></div></span>
+		<h3 id="reply-title" class="comment-reply-title"><span class="section-head"><span class="title">Write A Comment</span></span> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/clutch-definition-working-functions-types-parts/#respond" style="display:none;">Cancel Reply</a></small></h3><form action="https://studentlesson.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+			<div class="inline-field"> 
+				<input name="author" id="author" type="text" value="" aria-required="true" placeholder="Name" required=""/>
+			</div>
+
+			<div class="inline-field"> 
+				<input name="email" id="email" type="text" value="" aria-required="true" placeholder="Email" required=""/>
+			</div>
+		
+
+			<div class="inline-field"> 
+				<input name="url" id="url" type="text" value="" placeholder="Website"/>
+			</div>
+		
+
+			<div class="reply-field cf">
+				<textarea name="comment" id="comment" cols="45" rows="7" placeholder="Enter your comment here.." aria-required="true" required=""></textarea>
+			</div>
+	
+			<p class="comment-form-cookies-consent">
+				<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"/>
+				<label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.
+				</label>
+			</p>
+<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment"/> <input type="hidden" name="comment_post_ID" value="1414" id="comment_post_ID"/>
+<input type="hidden" name="comment_parent" id="comment_parent" value="0"/>
+</p></form>	</div><!-- #respond -->
+	
+	</div><!-- #comments -->
+</div>					
+			</article> <!-- .the-post -->
+
+		</div>
+		
+			<aside class="col-4 sidebar" data-sticky="1">
+		
+		<div class="inner theiaStickySidebar">
+		
+					<ul>
+				<li id="custom_html-16" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- Ezoic - Ezoic sidebar - sidebar -->
+<span id="ezoic-pub-ad-placeholder-103"></span><span class="ezoic-ad ezoic-at-0 box-1 box-1103 adtester-container adtester-container-103" data-ez-name="studentlesson_com-box-1"><span id="div-gpt-ad-studentlesson_com-box-1-0" ezaw="300" ezah="250" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:250px;min-width:300px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[300,250],'studentlesson_com-box-1','ezslot_5',103,'0','0'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-box-1-0')};</script></span><span style="width:300px;display:block;height:14px;margin:auto" class="reportline"><span style="text-align:center;font-size: smaller;float:left;line-height:normal;"><a href="https://www.ezoic.com/what-is-ezoic/" target="_blank" rel="noopener noreferrer nofollow" style="cursor:pointer"><img src="https://go.ezoic.net/utilcave_com/img/ezoic.png" alt="Ezoic" loading="lazy" style="height:12px !important; padding:2px !important; border:0px !important; cursor:pointer !important; width: 58px !important; margin:0 !important; box-sizing: content-box !important;"/></a></span><span class="ez-report-ad-button" name="?pageview_id=02c93e7f-4a81-4550-4b9e-c43dec420f5a&amp;ad_position_id=103&amp;impression_group_id=studentlesson_com-box-1/2022-08-31/4440072800677092&amp;ad_size=300x250&amp;domain_id=354107&amp;url=https://studentlesson.com/clutch-definition-working-functions-types-parts/" style="cursor: pointer!important; font-size:12px !important;color: #a5a5a5 ;float:right;text-decoration:none !important;font-family:arial !important;line-height:normal;">report this ad</span></span></span>
+<!-- End Ezoic - Ezoic sidebar - sidebar --></div></li>
+<li id="categories-6" class="widget widget_categories"><h5 class="widget-title"><span>Categories</span></h5><form action="https://studentlesson.com" method="get"><label class="screen-reader-text" for="cat">Categories</label><select name="cat" id="cat" class="postform">
+	<option value="-1">Select Category</option>
+	<option class="level-0" value="1">Articles</option>
+	<option class="level-0" value="16">Automobile</option>
+	<option class="level-0" value="3729">Books</option>
+	<option class="level-0" value="18">Civil Engineering</option>
+	<option class="level-0" value="3712">Economy</option>
+	<option class="level-0" value="17">Electrical Electronic</option>
+	<option class="level-0" value="3706">FInance</option>
+	<option class="level-0" value="3714">Focus</option>
+	<option class="level-0" value="3695">How-to</option>
+	<option class="level-0" value="3700">Industrial Engineering</option>
+	<option class="level-0" value="3727">Leadership</option>
+	<option class="level-0" value="3708">Loan &amp; Insurance</option>
+	<option class="level-0" value="22">Machines Theory</option>
+	<option class="level-0" value="19">Metalwork</option>
+	<option class="level-0" value="3720">Personal Loans</option>
+	<option class="level-0" value="3715">Productivity</option>
+	<option class="level-0" value="3601">Scholarships</option>
+	<option class="level-0" value="3697">Technology</option>
+	<option class="level-0" value="20">Woodwork</option>
+</select>
+</form>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			dropdown.parentNode.submit();
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+			</li>
+<li id="search-2" class="widget widget_search"><h5 class="widget-title"><span>Search</span></h5>
+	
+	<form method="get" class="search-form" action="https://studentlesson.com/">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input type="search" class="search-field" placeholder="Type and hit enter..." value="" name="s" title="Search for:"/>
+		</label>
+		<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+	</form>
+
+</li>
+<li id="custom_html-9" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><span id="ezoic-pub-ad-placeholder-101" data-ezadblocked="true"></span>
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-121326542-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121326542-2');
+</script>
+
+<meta name="p:domain_verify" content="3ef83735f9594d013a568f3bdd1f5395"/>
+
+</div></li>
+<li id="custom_html-14" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"></div></li>
+<li id="mc4wp_form_widget-3" class="widget widget_mc4wp_form_widget"><h5 class="widget-title"><span>Newsletter</span></h5><script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.8.7 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-1403" method="post" data-id="1403" data-name="studentlesson updates"><div class="mc4wp-form-fields"><p>
+	<label> 
+		<input type="email" name="EMAIL" placeholder="Your email address" required=""/>
+</label>
+</p>
+
+<p>
+	<input type="submit" value="submit"/>
+</p></div><label style="display: none !important;">Leave this field empty if you&#39;re human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"/></label><input type="hidden" name="_mc4wp_timestamp" value="1660490238"/><input type="hidden" name="_mc4wp_form_id" value="1403"/><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2"/><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></li>
+<li id="custom_html-17" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- Ezoic - Ezoic sidebar_bottom - sidebar_bottom -->
+<span id="ezoic-pub-ad-placeholder-104"></span><span class="ezoic-ad ezoic-at-0 large-leaderboard-1 large-leaderboard-1104 adtester-container adtester-container-104 ezoic-ad-adaptive" data-ez-name="studentlesson_com-large-leaderboard-1"><span class="ezoic-ad large-leaderboard-1 large-leaderboard-1-multi-104 adtester-container adtester-container-104" data-ez-name="studentlesson_com-large-leaderboard-1"><span id="div-gpt-ad-studentlesson_com-large-leaderboard-1-0" ezaw="300" ezah="262" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:262px;min-width:300px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[300,250],'studentlesson_com-large-leaderboard-1','ezslot_1',104,'0','0'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-large-leaderboard-1-0')};</script></span></span><span class="ezoic-ad large-leaderboard-1 large-leaderboard-1-multi-104 adtester-container adtester-container-104" data-ez-name="studentlesson_com-large-leaderboard-1"><span id="div-gpt-ad-studentlesson_com-large-leaderboard-1-0_1" ezaw="300" ezah="262" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:262px;min-width:300px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[300,250],'studentlesson_com-large-leaderboard-1','ezslot_2',104,'0','1'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-large-leaderboard-1-0_1')};</script></span></span><span class="ezoic-ad large-leaderboard-1 large-leaderboard-1-multi-104 adtester-container adtester-container-104" data-ez-name="studentlesson_com-large-leaderboard-1"><span id="div-gpt-ad-studentlesson_com-large-leaderboard-1-0_2" ezaw="300" ezah="262" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:262px;min-width:300px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[300,250],'studentlesson_com-large-leaderboard-1','ezslot_3',104,'0','2'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-large-leaderboard-1-0_2')};</script></span></span><span class="ezoic-ad large-leaderboard-1 large-leaderboard-1-multi-104 adtester-container adtester-container-104" data-ez-name="studentlesson_com-large-leaderboard-1"><span id="div-gpt-ad-studentlesson_com-large-leaderboard-1-0_3" ezaw="300" ezah="262" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:262px;min-width:300px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[300,250],'studentlesson_com-large-leaderboard-1','ezslot_4',104,'0','3'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-large-leaderboard-1-0_3')};</script></span></span><style> .large-leaderboard-1-multi-104{border:none !important;display:block !important;float:none !important;line-height:0px;margin-bottom:0px !important;margin-left:auto !important;margin-right:auto !important;margin-top:0px !important;max-width:100% !important;min-height:250px;min-width:300px;padding:0;text-align:center !important;}</style></span>
+<!-- End Ezoic - Ezoic sidebar_bottom - sidebar_bottom --></div></li>
+			</ul>
+				
+		</div>
+
+	</aside>		
+	</div> <!-- .ts-row -->
+	
+	</div>
+</div><span id="ezoic-pub-ad-placeholder-117" class="ezoic-adpicker-ad"></span><span class="ezoic-ad ezoic-at-0 medrectangle-1 medrectangle-1117 adtester-container adtester-container-117" data-ez-name="studentlesson_com-medrectangle-1"><span id="div-gpt-ad-studentlesson_com-medrectangle-1-0" ezaw="250" ezah="250" style="position:relative;z-index:0;display:inline-block;padding:0;width:100%;max-width:1200px;margin-left:auto !important;margin-right:auto !important;min-height:250px;min-width:970px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[250,250],'studentlesson_com-medrectangle-1','ezslot_11',117,'0','0'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-medrectangle-1-0')};</script></span><span style="width:250px;display:block;height:14px;margin:auto" class="reportline"><span style="text-align:center;font-size: smaller;float:left;line-height:normal;"><a href="https://www.ezoic.com/what-is-ezoic/" target="_blank" rel="noopener noreferrer nofollow" style="cursor:pointer"><img src="https://go.ezoic.net/utilcave_com/img/ezoic.png" alt="Ezoic" loading="lazy" style="height:12px !important; padding:2px !important; border:0px !important; cursor:pointer !important; width: 58px !important; margin:0 !important; box-sizing: content-box !important;"/></a></span><span class="ez-report-ad-button" name="?pageview_id=02c93e7f-4a81-4550-4b9e-c43dec420f5a&amp;ad_position_id=117&amp;impression_group_id=studentlesson_com-medrectangle-1/2022-08-31/3574651180668953&amp;ad_size=250x250&amp;domain_id=354107&amp;url=https://studentlesson.com/clutch-definition-working-functions-types-parts/" style="cursor: pointer!important; font-size:12px !important;color: #a5a5a5 ;float:right;text-decoration:none !important;font-family:arial !important;line-height:normal;">report this ad</span></span></span> <!-- .main -->
+
+
+	
+	
+	<footer class="main-footer bold bold-light">
+		
+				
+		
+				
+		
+
+				
+		<section class="lower-footer cf">
+			<div class="wrap">
+			
+				<ul class="social-icons">
+					
+												<li>
+								<a href="https://web.facebook.com/studentlessonn" class="social-link" target="_blank" title="Facebook">
+									<i class="fa fa-facebook"></i>
+									<span class="label">Facebook</span>
+								</a>
+							</li>
+						
+												<li>
+								<a href="https://twitter.com/Studentlesson3" class="social-link" target="_blank" title="Twitter">
+									<i class="fa fa-twitter"></i>
+									<span class="label">Twitter</span>
+								</a>
+							</li>
+						
+												<li>
+								<a href="https://www.instagram.com/studentlesson/" class="social-link" target="_blank" title="Instagram">
+									<i class="fa fa-instagram"></i>
+									<span class="label">Instagram</span>
+								</a>
+							</li>
+						
+												<li>
+								<a href="https://www.pinterest.com/studentlesson/_created/" class="social-link" target="_blank" title="Pinterest">
+									<i class="fa fa-pinterest-p"></i>
+									<span class="label">Pinterest</span>
+								</a>
+							</li>
+						
+												<li>
+								<a href="#" class="social-link" target="_blank" title="LinkedIn">
+									<i class="fa fa-linkedin"></i>
+									<span class="label">LinkedIn</span>
+								</a>
+							</li>
+						
+							
+				</ul>
+
+			
+										
+					<div class="links">					
+						<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="https://studentlesson.com/about-us/">About us</a></li>
+<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://studentlesson.com/contact-us/">Contact us</a></li>
+<li id="menu-item-3686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3686"><a href="https://studentlesson.com/checkout/">Checkout</a></li>
+<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="https://studentlesson.com/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-3685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3685"><a href="https://studentlesson.com/my-account/">My account</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-52"><a href="https://studentlesson.com/privacy-policy-2/">Privacy policy</a></li>
+<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="https://studentlesson.com/advertise-with-us/">Advertise with us</a></li>
+</ul></div>					</div>
+				
+				
+				
+				<p class="copyright">© 2018 - 2022 StudentLesson. Designed by <a href="https://studentlesson.com">GI</a>.				</p>
+
+
+				
+									<div class="to-top">
+						<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i> Top</a>
+					</div>
+									
+			</div>
+		</section>
+		
+				
+		
+	</footer>	
+	
+</div> <!-- .main-wrap -->
+
+
+
+<div class="mobile-menu-container off-canvas" id="mobile-menu">
+
+	<a href="#" class="close"><i class="fa fa-times"></i></a>
+	
+	<div class="logo">
+			</div>
+	
+	
+		<ul id="menu-mobile-menu" class="mobile-menu"><li id="menu-item-87" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-87"><a href="https://studentlesson.com">Home</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-76"><a href="https://studentlesson.com/category/articles/">Articles</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-77"><a href="https://studentlesson.com/category/automobile/">Automobile</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-78"><a href="https://studentlesson.com/category/elect-elect/">Electrical Electronic</a></li>
+<li id="menu-item-79" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-79"><a href="https://studentlesson.com/category/civil-engineering/">Civil Engineering</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80"><a href="https://studentlesson.com/category/metalwork/">Metalwork</a></li>
+<li id="menu-item-81" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-81"><a href="https://studentlesson.com/category/woodwork/">Woodwork</a></li>
+<li id="menu-item-83" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-83"><a href="https://studentlesson.com/category/machine-theory/">Machines Theory</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="https://studentlesson.com/about-us/">About us</a></li>
+<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page current-post-parent menu-item-85"><a href="https://studentlesson.com/contact-us/">Contact us</a></li>
+<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="https://studentlesson.com/advertise-with-us/">Advertise with us</a></li>
+</ul>
+	</div>
+
+
+
+	<div class="search-modal-wrap">
+
+		<div class="search-modal-box" role="dialog" aria-modal="true">
+			
+
+	<form method="get" class="search-form" action="https://studentlesson.com/">
+		<input type="search" class="search-field" name="s" placeholder="Search..." value="" required=""/>
+
+		<button type="submit" class="search-submit visuallyhidden">Submit</button>
+
+		<p class="message">
+			Type above and press <em>Enter</em> to search. Press <em>Esc</em> to cancel.		</p>
+				
+	</form>
+
+		</div>
+	</div>
+
+
+<script>(function() {function maybePrefixUrlField() {
+	if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if (urlFields) {
+	for (var j=0; j < urlFields.length; j++) {
+		urlFields[j].addEventListener('blur', maybePrefixUrlField);
+	}
+}
+})();</script>
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/studentlesson.com\/clutch-definition-working-functions-types-parts\/":1414};
+	</script>
+						<script type="text/javascript" src="https://c0.wp.com/p/jetpack/11.2/_inc/build/photon/photon.min.js" id="jetpack-photon-js"></script>
+<script type="text/javascript" id="toc-front-js-extra">
+/* <![CDATA[ */
+var tocplus = {"smooth_scroll":"1","visibility_show":"show","visibility_hide":"hide","width":"Auto"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://studentlesson.com/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2106" id="toc-front-js"></script>
+<script type="text/javascript" src="https://studentlesson.com/wp-content/themes/contentberg/js/magnific-popup.js?ver=2.1.0" id="magnific-popup-js"></script>
+<script type="text/javascript" src="https://studentlesson.com/wp-content/themes/contentberg/js/jquery.fitvids.js?ver=2.1.0" id="jquery-fitvids-js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/6.0.1/wp-includes/js/imagesloaded.min.js" id="imagesloaded-js"></script>
+<script type="text/javascript" src="https://studentlesson.com/wp-content/themes/contentberg/js/object-fit-images.js?ver=2.1.0" id="object-fit-images-js"></script>
+<script type="text/javascript" src="https://studentlesson.com/wp-content/themes/contentberg/js/theme.js?ver=2.1.0" id="contentberg-theme-js"></script>
+<script type="text/javascript" src="https://studentlesson.com/wp-content/themes/contentberg/js/theia-sticky-sidebar.js?ver=2.1.0" id="theia-sticky-sidebar-js"></script>
+<script type="text/javascript" src="https://studentlesson.com/wp-content/themes/contentberg/js/jquery.slick.js?ver=2.1.0" id="jquery-slick-js"></script>
+<script type="text/javascript" src="https://studentlesson.com/wp-content/themes/contentberg/js/jarallax.js?ver=2.1.0" id="jarallax-js"></script>
+<script type="text/javascript" src="https://studentlesson.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-lazy-images/dist/intersection-observer.js?minify=false&amp;ver=83ec8aa758f883d6da14" id="jetpack-lazy-images-polyfill-intersectionobserver-js"></script>
+<script type="text/javascript" id="jetpack-lazy-images-js-extra">
+/* <![CDATA[ */
+var jetpackLazyImagesL10n = {"loading_warning":"Images are still loading. Please cancel your print and try again."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://studentlesson.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-lazy-images/dist/lazy-images.js?minify=false&amp;ver=54eb31dc971b63b49278" id="jetpack-lazy-images-js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/6.0.1/wp-includes/js/comment-reply.min.js" id="comment-reply-js"></script>
+<script type="text/javascript" defer="" src="https://studentlesson.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.7" id="mc4wp-forms-api-js"></script>
+<script type="text/javascript" id="sharing-js-js-extra">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://c0.wp.com/p/jetpack/11.2/_inc/build/sharedaddy/sharing.min.js" id="sharing-js-js"></script>
+<script type="text/javascript" id="sharing-js-js-after">
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-twitter' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-tumblr' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-tumblr' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-linkedin' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-linkedin' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-telegram' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-telegram' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtelegram', 'menubar=1,resizable=1,width=450,height=450' );
+						return false;
+					}
+				} );
+			} )();
+</script>
+<script src="https://stats.wp.com/e-202232.js" defer=""></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:11.2',blog:'164690544',post:'1414',tz:'0',srv:'studentlesson.com'} ]);
+	_stq.push([ 'clickTrackerInit', '164690544', '1414' ]);
+</script>
+
+
+<!--[selectrongo:done]--><div class="ezmob-footer ezoic-floating-bottom ezo_ad ezmob-footer-desktop" id="ezmobfooter"><center><span id="ezoic-pub-ad-placeholder-100"></span><div class="ezmob-footer ezoic-floating-bottom ezo_ad ezmob-footer-desktop" id="ezmobfooter"><center><span class="ezoic-ad ezoic-at-4 medrectangle-2 medrectangle-2100 adtester-container adtester-container-100" data-ez-name="studentlesson_com-medrectangle-2"><span id="div-gpt-ad-studentlesson_com-medrectangle-2-0" ezaw="728" ezah="90" style="position:relative;z-index:0;display:inline-block;padding:0;min-height:90px;min-width:728px;" class="ezoic-ad"><script data-ezscrex="false" data-cfasync="false" type="text/javascript" style="display:none;">if(typeof ez_ad_units != 'undefined'){ez_ad_units.push([[728,90],'studentlesson_com-medrectangle-2','ezslot_0',100,'0','0'])};if(typeof __ez_fad_position != 'undefined'){__ez_fad_position('div-gpt-ad-studentlesson_com-medrectangle-2-0')};</script></span></span></center><span class="ezmob-footer-close" onclick="__ez_close_anchor()">x</span></div></center><span class="ezmob-footer-close" onclick="__ez_close_anchor()">x</span></div><script type="text/javascript">
+				var __inScopeForCCPA = false;
+		function __uspapi(command, version, callback) {
+			var response = null;
+			var successs = false;
+			if (command === "getUSPData" && version === 1) {
+				var uspString = "1"; // Version
+				if (__inScopeForCCPA) {
+					uspString += "Y"; // Has Explicit Notice for Opt Out been provided (ex footer or minor consent modal)
+					var result;
+					var consentCookie = (result = new RegExp('(?:^|; )ezoccpaconsent=([^;]*)').exec(document.cookie)) ? (result[1]) : null;
+					if (consentCookie === "nonconsent") {
+						uspString += "Y";
+					}
+					else {
+						uspString += "N";
+					}
+					uspString += "N" // Is pub a signatory to the IAB Limited Service Provider Agreement (http://www.iabprivacy.com/)
+				}
+				else {
+					uspString += "---";
+				}
+				response = {
+					uspString: uspString,
+					version: 1
+				};
+				success = true;
+			}
+			return callback(response, success);
+		};
+		function __receiveUspapiMessage(event) {
+			if (event.data.hasOwnProperty('__uspapiCall')) {
+				__uspapi('getUSPData', 1, function(uspData, success) {
+					event.source.postMessage({
+						__uspapiReturn: {
+							returnValue: uspData,
+							success: success,
+							callId: event.data.__uspapiCall.callId
+						}
+					},
+					event.origin);
+				});
+			}
+			return null;
+		};
+		window.addEventListener("message", __receiveUspapiMessage, false);
+</script>
+<script>function __ez_fad_ezpbinit(){var s = document.createElement( 'script' );
+	s.setAttribute( 'src', '//go.ezodn.com/hb/dall.js?b=adyoulike,amx,criteo,oftmedia,onemobile,onetag,pubmatic,pulsepoint,sharethrough,yahoossp,yieldmo&cb=195-0-45' );
+	s.onerror = function () {window.ezDallErr = true};
+	document.body.appendChild( s );}var ezAYL={bidder: 'adyoulike', params: { placement: '1445fa30166d47821a0f97789148a105' }};var ezYieldmo={bidder:'yieldmo',params:{placementId:'2834942196124164132'}};var ezAMX={bidder:'amx',params:{tagId:'ZXpvaWMuY29t'}};var ezOneTag={bidder:'onetag',params:{pubId:'62499636face9dc'}};var ezjsps=function(obj){return JSON.parse(JSON.stringify(obj));};var epbjs=epbjs||{};epbjs.que=epbjs.que||[];epbjs.bidderTimeout=2500;epbjs.useAdj=true;epbjs.SS={"adyoulike":11314,"amx":11290,"criteo":10050,"oftmedia":10081,"onemobile":11293,"onetag":11291,"pubmatic":10061,"pulsepoint":11301,"sharethrough":11309,"yahoossp":11318,"yieldmo":11315};epbjs.bidders=['adyoulike,amx,criteo,oftmedia,onemobile,onetag,pubmatic,pulsepoint,sharethrough,yahoossp,yieldmo'];epbjs.que.push(function(){epbjs.aliasBidder('appnexus', 'oftmedia');});epbjs.bidderSettings={'oftmedia': { bidCpmAdjustment: function(bidCpm) { var adj1 = bidCpm * 0.850000; var adj2 = adj1 * 1.000000; return adj2; }},};epbjs.gadj=1.000000;var __enableAnalytics=false;
+var __s2sbidders=['amx','onetag'];
+var __s2sinstreambidders=['ix','rubicon','pubmatic','vidoomy','viewdeosDX'];
+var __allBidders=['oftmedia','pubmatic','pulsepoint','adyoulike','yieldmo','sharethrough','onemobile','amx','onetag','criteo','yahoossp'];
+__ez.queue.addFile('/detroitchicago/houston.js', '/detroitchicago/houston.js?gcb=0&cb=23', false, [], true, false, true, false);__ez.queue.addFunc("epbjsRequestAdUnits", "epbjsRequestAdUnits", [[{code: 'div-gpt-ad-studentlesson_com-medrectangle-2-0', mediaTypes: {banner: { sizes:[[728,90]] }}, bids: [{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: 'e_bottom_floating_728x90' }},{bidder: 'pulsepoint', params: { cf: '728x90', cp: 562406, ct: 719177 }},ezjsps(ezAYL),ezjsps(ezYieldmo),{bidder: 'sharethrough', params: { pkey: 'e1sI5HKO9lbvTm6UAa1WEpg9' }},ezjsps(ezAMX),ezjsps(ezOneTag)] },{code: 'div-gpt-ad-studentlesson_com-large-leaderboard-1-0', mediaTypes: {banner: { sizes:[[300,250]] }}, bids: [{bidder: 'oftmedia', params:{ placementId: '19594063', video: {skippable: true, playback_method: ['auto_play_sound_off']}}},{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: 'e_sidebar_bottom_300x250' }},{bidder: 'pulsepoint', params: { ct: 719185, cp: 562406, cf: '300x250' }},ezjsps(ezAYL),ezjsps(ezYieldmo),{bidder: 'sharethrough', params: { pkey: 'ZuLKhEvL3Xpyu8vcJZvy4GGZ' }},ezjsps(ezAMX),ezjsps(ezOneTag)] ,sizeMapping: [
+			{
+				minWidth: 300,
+				sizes: [[300,250]]
+			}]},{code: 'div-gpt-ad-studentlesson_com-large-leaderboard-1-0_1', mediaTypes: {banner: { sizes:[[300,250]] }}, bids: [{bidder: 'oftmedia', params:{ placementId: '19594063', video: {skippable: true, playback_method: ['auto_play_sound_off']}}},{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: 'e_sidebar_bottom_300x250' }},{bidder: 'pulsepoint', params: { cf: '300x250', cp: 562406, ct: 719185 }},ezjsps(ezAYL),ezjsps(ezYieldmo),{bidder: 'sharethrough', params: { pkey: 'ZuLKhEvL3Xpyu8vcJZvy4GGZ' }},ezjsps(ezAMX),ezjsps(ezOneTag)] ,sizeMapping: [
+			{
+				minWidth: 300,
+				sizes: [[300,250]]
+			}]},{code: 'div-gpt-ad-studentlesson_com-large-leaderboard-1-0_2', mediaTypes: {banner: { sizes:[[300,250]] }}, bids: [{bidder: 'oftmedia', params:{ placementId: '19594063', video: {skippable: true, playback_method: ['auto_play_sound_off']}}},{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: 'e_sidebar_bottom_300x250' }},{bidder: 'pulsepoint', params: { cp: 562406, ct: 719185, cf: '300x250' }},ezjsps(ezAYL),ezjsps(ezYieldmo),{bidder: 'sharethrough', params: { pkey: 'ZuLKhEvL3Xpyu8vcJZvy4GGZ' }},ezjsps(ezAMX),ezjsps(ezOneTag)] ,sizeMapping: [
+			{
+				minWidth: 300,
+				sizes: [[300,250]]
+			}]},{code: 'div-gpt-ad-studentlesson_com-large-leaderboard-1-0_3', mediaTypes: {banner: { sizes:[[300,250]] }}, bids: [{bidder: 'oftmedia', params:{ placementId: '19594063', video: {skippable: true, playback_method: ['auto_play_sound_off']}}},{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: 'e_sidebar_bottom_300x250' }},{bidder: 'pulsepoint', params: { cp: 562406, ct: 719185, cf: '300x250' }},ezjsps(ezAYL),ezjsps(ezYieldmo),{bidder: 'sharethrough', params: { pkey: 'ZuLKhEvL3Xpyu8vcJZvy4GGZ' }},ezjsps(ezAMX),ezjsps(ezOneTag)] ,sizeMapping: [
+			{
+				minWidth: 300,
+				sizes: [[300,250]]
+			}]},{code: 'div-gpt-ad-studentlesson_com-box-1-0', mediaTypes: {banner: { sizes:[[300,250]] }}, bids: [{bidder: 'oftmedia', params:{ placementId: '19593629', video: {skippable: true, playback_method: ['auto_play_sound_off']}}},{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: 'e_sidebar_300x250' }},{bidder: 'pulsepoint', params: { ct: 719185, cf: '300x250', cp: 562406 }},ezjsps(ezAYL),ezjsps(ezYieldmo),{bidder: 'sharethrough', params: { pkey: 'ZuLKhEvL3Xpyu8vcJZvy4GGZ' }},ezjsps(ezAMX),ezjsps(ezOneTag)] },{code: 'div-gpt-ad-studentlesson_com-box-4-0', mediaTypes: {banner: { sizes:[[300,250]] }}, bids: [{bidder: 'oftmedia', params:{ placementId: '19594020', video: {skippable: true, playback_method: ['auto_play_sound_off']}}},{bidder: 'pubmatic', params:{ publisherId: '156983', adSlot: 'e_mid_content_300x250' }},{bidder: 'pulsepoint', params: { cp: 562406, ct: 719185, cf: '300x250' }},ezjsps(ezAYL),ezjsps(ezYieldmo),{bidder: 'sharethrough', params: { pkey: 'ZuLKhEvL3Xpyu8vcJZvy4GGZ' }},ezjsps(ezAMX),ezjsps(ezOneTag)] }]], false, ['/detroitchicago/houston.js'], true, true, true, true);var __pd = 'MTA9MDQwOWRlYzI1NjQ3ZGRiNjcwOGFiNDFkNmVjMTk3MjVkNzQ2MDg5ZDY0MDE0NWViYWJiYzQ0ZjE1OTdhNzhjYiYxMj1Nb3ppbGxhJTJGNS4wKyUyOFdpbmRvd3MrTlQrMTAuMCUzQitXaW42NCUzQit4NjQlMjkrQXBwbGVXZWJLaXQlMkY1MzcuMzYrJTI4S0hUTUwlMkMrbGlrZStHZWNrbyUyOStDaHJvbWUlMkYxMDQuMC4wLjArU2FmYXJpJTJGNTM3LjM2';</script>
+<script>var __ez_tkn_evnt = function() { if(typeof(_ezaq) != 'undefined'){if(typeof window.ezogtk !== "undefined" && window.ezogtk !== "") {__ez.bit.AddAndFire(_ezaq.page_view_id,[new __ezDotData("ext_user_hash",window.ezogtk)]);}}};document.addEventListener("DOMContentLoaded", __ez.queue.addFunc("__ez_tkn_evnt", "__ez_tkn_evnt", event, false, ['/detroitchicago/minneapolis.js','/detroitchicago/memphis.js'], true, true, false, true));</script>
+<script src="/detroitchicago/augusta.js?cb=24" async data-ezscrex="false"></script>
+<script async data-ezscrex="false">__ez_fad_load(0,0);__ez_fad_doc_ht=__ez_fad_docht();__ez_fad_vp_ht=__ez_fad_vpht();function __ez_fad_scroll(){return window.pageYOffset||(document.documentElement||document.body.parentNode||document.body).scrollTop}
+var __ez_fad_init_scroll=__ez_fad_scroll();var __ez_fad_scroll_delta=0;var __ez_fad_check_scroll_override=function(){var currScroll=__ez_fad_scroll();if(__ez_fad_scroll_delta>__ez_fad_vp_ht){if(currScroll===__ez_fad_init_scroll){for(var i=0;i<__ez_fad_divs.length;i++)
+if(ezslit_run[i]!==true){__ez_fad_load(i,null);}}
+document.removeEventListener('wheel',__ez_fad_wheel_check);document.removeEventListener('touchstart',__ez_fad_touch_check);}};var __ez_fad_wheel_check=function(e){__ez_fad_scroll_delta+=e.deltaY;__ez_fad_check_scroll_override();};var __ez_fad_touch_check=function(e){var delta=0;var startY=e.touches[0].pageY;var handleTouchMove=function(e){var currY=e.touches[0].pageY;delta+=startY-currY;startY=currY;};var handleTouchEnd=function(e){document.removeEventListener('touchmove',handleTouchMove);document.removeEventListener('touchend',handleTouchEnd);__ez_fad_scroll_delta+=delta;__ez_fad_check_scroll_override();};document.addEventListener('touchmove',handleTouchMove);document.addEventListener('touchend',handleTouchEnd);};document.addEventListener('wheel',__ez_fad_wheel_check);document.addEventListener('touchstart',__ez_fad_touch_check);var __ez_fad_scrollmond=false;var __ez_fad_scrollmon=function(){var sy=__ez_fad_scroll();var isShortPage=__ez_fad_doc_ht<=(__ez_fad_vh+100);var bot=(__ez_fad_vp_ht+sy);var botThresh=bot+__ez_fad_vp_ht;for(var divid in __ez_fad_divpos){if(__ez_fad_fastdiv.indexOf(divid)!=-1){continue;}
+var divPos=__ez_fad_divpos[divid];if(divPos>0&&divPos>sy&&divPos<(sy+__ez_fad_vp_ht*.5)){if(typeof __ez_fad_instaslots[divid]=='function'){__ez_fad_instaslots[divid]();}}else if(divPos>0&&divPos>sy&&divPos<(sy+__ez_fad_vp_ht)){if(typeof __ez_fad_viewslots[divid]=='function'){__ez_fad_viewslots[divid]();}}}
+__ez_fad_chkpos();if(ezslit_run[0]!==true){__ez_fad_load(0,0);}
+if((sy>0||isShortPage)&&ezslit_run[1]!=true){__ez_fad_load(1,null);__ez_fad_load(5,null);}
+if((sy>100||isShortPage)&&ezslit_run[2]!=true){__ez_fad_load(2,null);}
+if(sy>(__ez_fad_vp_ht*.75)&&ezslit_run[3]!=true){__ez_fad_load(3,null);}
+if(document.readyState==="complete"&&!__ez_fad_floatshowd&&typeof __ez_fad_floating!=='undefined'&&__ez_fad_floating.length>0&&__ez_fad_count===0){setTimeout(googletag.cmd.push(function(){__ez_fad_floatshow()}),500);}
+if((ezslit_run[1]==true&&ezslit_run[2]==true&&ezslit_run[3]==true)||__ez_fad_count===__ez_fad_divsd.length){__ez_fad_scrollmond=true;}else{setTimeout(__ez_fad_scrollmon,500);}};__ez_fad_scrollmon();function __ez_fad_chkpos(){if(typeof __ez_fad_divs[4]!='undefined'){for(var i=0;i<__ez_fad_divs[4].length;i++){var id=__ez_fad_divs[4][i];__ez_fad_divs[4][i]=null;__ez_fad_position([id]);}}}</script>
+<script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer type='text/javascript' id=a6aa3ffb1f4e4ac9bf95518384b0e2f3>setTimeout(function(){
+		!function(e) {
+			if (typeof(window.cnx) === 'undefined' || !window.cnx) {
+				window.cnx = {}, window.cnx.cmd = [];
+				var n = e.createElement('iframe');
+				n.src = 'javascript:false';
+				n.display = 'none', n.onload = function () {
+					if (typeof(ezVideo) === 'undefined' || !ezVideo) {
+						var e = n.contentWindow.document,
+							t = e.createElement('script');
+						t.src = 'https://cd.connatix.com/connatix.player.js?cid=5f049401-746e-4449-8c27-b6b9d8e25882';
+						t.setAttribute('async', '1');
+						t.setAttribute('type', 'text/javascript');
+						e.body.appendChild(t);
+					}
+				};
+				e.head.appendChild(n);
+			}
+		}(document);
+		(new Image).src = '//capi.connatix.com/tr/si?token=dceed97a-951e-4c47-b565-c2794ffae817&cid=5f049401-746e-4449-8c27-b6b9d8e25882';
+		cnx.cmd.push(function () {
+			if (typeof(__ezcnxPlayer) === 'undefined' || !__ezcnxPlayer) {
+				cnx({
+					playerId: 'dceed97a-951e-4c47-b565-c2794ffae817',
+				}).render('a6aa3ffb1f4e4ac9bf95518384b0e2f3', (e, n) => {
+					__ezcnxPlayer = n;
+					if (typeof(__ez_auto_adjust_outstream_float) === 'undefined') {
+						__ezcnxPlayerDelay = [];
+						__ezcnxPlayerDelay.push('outstreamFloatDestroy');
+					} else {
+						__ez_outstream_float_destroy && __ez_outstream_float_destroy();
+					}
+				});
+			}
+		});
+	}, 3000);</script>
+<script type="text/javascript" data-cfasync="false"></script>
+<script type="text/javascript" style='display:none;'>var __ez_dims = (function() {
+		var setCookie = function( name, content, expiry ) {
+			return document.cookie = name+'='+content+((expiry)?';expires='+(new Date(Math.floor(new Date().getTime()+expiry*1000)).toUTCString()):'')+';path=/';
+		};
+		var ffid = 1;
+		var oh = window.screen.height;
+		var ow = window.screen.width;
+		var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+		var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+		var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+		var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+		setCookie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (31536e3*7));
+		setCookie('ezohw', encodeURIComponent('w='+uw+',h='+uh), (31536e3*7));
+	})();</script><script type='text/javascript' style='display:none;' async>
+</script>
+</body></html>
